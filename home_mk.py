@@ -39,16 +39,17 @@ def block(t, lg):
 
 T = {}
 T['es'] = dict(
- h1='Apps para aprender y jugar en familia',
+ h1='Apps para aprender y jugar',
  lead='Somos MJCStudio, un pequeño estudio independiente de España. Hacemos apps cuidadas, sin anuncios y sin recoger datos, para pasar buenos ratos juntos y aprender sin darse cuenta.',
  b1='🎲 Rondalia', b2='⛵ Lexpedition',
  r_k='Momentos de calidad que caben en un móvil',
- r_p='Cualquier rato es bueno para jugar juntos: la sobremesa, un viaje en coche, la espera en un restaurante, una tarde de lluvia o una reunión con amigos. Saca el móvil y empieza la partida. Un solo móvil que se va pasando, sin internet, sin cuentas y sin que nadie tenga que leer instrucciones: abuelos, padres y peques juegan juntos, cada uno a su nivel.',
+ r_p='Cualquier rato es bueno para jugar juntos: la sobremesa, un viaje en coche, la espera en un restaurante, una tarde de lluvia o una reunión con amigos. Saca el móvil y empieza la partida, en familia, con amigos o tú solo. Un solo móvil que se va pasando, sin internet, sin cuentas y sin que nadie tenga que leer instrucciones: abuelos, padres y peques juegan juntos, cada uno a su nivel.',
  r_f=[('👨‍👩‍👧‍👦', 'Cada uno a su nivel', 'Cuatro grupos de edad (5–7, 8–11, 12–15 y 16+). En la misma partida, el peque recibe su pregunta y el abuelo la suya.'),
       ('🎲', '11 juegos en una app', 'Desde preguntas y mímica hasta el abecedario, banderas o palabra prohibida. Siempre hay uno que apetece.'),
       ('📚', 'Miles de preguntas', 'Más de 2.000 preguntas por idioma, cientos de palabras y mímicas, y todo el contenido revisado para que sea apto para niños.'),
       ('🧒', 'También para jugar solo', 'Preguntas, Abecedario, Cálculo, Banderas y Adivina el número sirven para practicar y aprender con un solo jugador.'),
-      ('🏆', 'Marcador y turnos', 'La app lleva los puntos, los turnos y el tiempo, para que vosotros solo os preocupéis de reír.'),
+      ('🏆', 'Marcador y turnos', 'La app lleva los puntos, los turnos y el tiempo, para que vosotros solo os preocupéis de pasarlo bien, en familia o con amigos.'),
+      ('💬', 'Para conoceros mejor', 'No todo es competir: ¿Qué prefieres?, Conocernos e Historia encadenada abren conversaciones para descubrir gustos, recuerdos y anécdotas de los demás.'),
       ('🎃', 'Sorpresas de temporada', 'Set de Halloween gratis: preguntas, palabras y mímicas, y un estilo visual con calderos de bruja, murciélagos y telarañas.')],
  r_a1='Pantalla de inicio de Rondalia', r_a2='Juego del Abecedario en Rondalia',
  r_gh='Los juegos',

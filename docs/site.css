@@ -44,7 +44,7 @@ html[data-lang=es] [data-l=es],html[data-lang=en] [data-l=en],html[data-lang=fr]
 .apphead h2{margin:0;font-size:1.5rem}
 .kicker{margin:2px 0 0;color:var(--red);font-weight:700}
 .feats{display:grid;grid-template-columns:1fr;gap:12px;margin:16px 0}
-@media(min-width:640px){.feats{grid-template-columns:1fr 1fr}}
+@media(min-width:640px){.feats{grid-template-columns:1fr 1fr}.feat:last-child:nth-child(odd){grid-column:1/-1}}
 .feat{display:flex;gap:12px;align-items:flex-start;background:#fbf6ef;border-radius:14px;padding:12px}
 .feat .fi{font-size:1.5rem;line-height:1.2;flex:0 0 auto}
 .feat div{color:var(--muted);font-size:.95rem}

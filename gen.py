@@ -56,7 +56,7 @@ def page(key, root, body):
 
 # ---------- PORTADA ----------
 home = {
-'es': '''<h1>Apps para aprender y jugar en familia</h1>
+'es': '''<h1>Apps para aprender y jugar</h1>
 <p class="lead">Somos MJCStudio, un pequeño estudio independiente. Hacemos apps sencillas, sin anuncios y sin recoger datos, aptas para toda la familia.</p>
 <div class="apps">
 <div class="app"><img src="img/rondalia.png" alt=""><div><h3>Rondalia</h3><p>Juegos para jugar en grupo con un solo móvil: preguntas, palabra prohibida, abecedario, mímica, banderas y más. Para todas las edades, sin internet.</p><span class="tag">Próximamente en Google Play y App Store</span></div></div>
