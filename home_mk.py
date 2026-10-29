@@ -64,7 +64,7 @@ T['es'] = dict(
       ('🔥', 'Motivación diaria', 'Test diario con nota, racha, meta de XP, misiones e insignias. Ideal para crear el hábito.'),
       ('🗣️', 'En tu idioma', 'La app habla español, inglés, francés o alemán, y los significados pueden salir traducidos a tu idioma o como definición.')],
  l_a1='Carta de navegación de Lexpedition', l_a2='Progreso, rango y récords en Lexpedition',
- l_n='Para estudiantes desde unos 10 años hasta adultos. Varios perfiles en el mismo móvil. Gratis en todos los niveles: el Test diario y las 3 primeras islas de cada nivel; cada idioma completo se desbloquea con una compra única.',
+ l_n='Para cualquier edad: desde niños que preparan su primer certificado hasta adultos. Varios perfiles en el mismo móvil. Gratis en todos los niveles: el Test diario y las 3 primeras islas de cada nivel; cada idioma completo se desbloquea con una compra única.',
  c_h='Nuestro compromiso',
  c=['Sin anuncios, nunca.', 'Sin cuentas ni registro.', 'No recogemos datos personales: todo se guarda en tu móvil.', 'Aptas para menores: compras y enlaces protegidos con una pregunta para adultos.', 'Compra única opcional, sin suscripciones.'],
  mail='¿Dudas o ideas? Escríbenos a')
@@ -94,7 +94,7 @@ T['en'] = dict(
       ('🔥', 'Daily motivation', 'Daily test with a score, streaks, XP goal, missions and badges. Perfect to build the habit.'),
       ('🗣️', 'In your language', 'The app speaks English, Spanish, French or German, and meanings can be shown as translations or definitions.')],
  l_a1='Lexpedition sea chart', l_a2='Progress, rank and records in Lexpedition',
- l_n='For learners from about age 10 to adults. Several profiles on the same device. Free at every level: the Daily test and the first 3 islands of each level; each full language is unlocked with a one-time purchase.',
+ l_n='For every age: from children preparing their first certificate to adults. Several profiles on the same device. Free at every level: the Daily test and the first 3 islands of each level; each full language is unlocked with a one-time purchase.',
  c_h='Our promise',
  c=['No ads, ever.', 'No accounts or sign-up.', "We don't collect personal data: everything stays on your device.", 'Child-friendly: purchases and links are protected by a question for adults.', 'Optional one-time purchase, no subscriptions.'],
  mail='Questions or ideas? Write to')
@@ -124,7 +124,7 @@ T['fr'] = dict(
       ('🔥', 'Motivation quotidienne', 'Test du jour noté, série, objectif d\'XP, missions et badges. Idéal pour prendre l\'habitude.'),
       ('🗣️', 'Dans ta langue', 'L\'appli parle français, espagnol, anglais ou allemand, et les sens s\'affichent en traduction ou en définition.')],
  l_a1='Carte marine de Lexpedition', l_a2='Progrès, grade et records dans Lexpedition',
- l_n="Pour les élèves dès 10 ans environ et les adultes. Plusieurs profils sur le même appareil. Gratuit à chaque niveau : le Test du jour et les 3 premières îles de chaque niveau ; chaque langue complète se débloque par un achat unique.",
+ l_n="Pour tous les âges : des enfants qui préparent leur premier diplôme aux adultes. Plusieurs profils sur le même appareil. Gratuit à chaque niveau : le Test du jour et les 3 premières îles de chaque niveau ; chaque langue complète se débloque par un achat unique.",
  c_h='Notre engagement',
  c=['Pas de publicité, jamais.', 'Pas de compte ni d\'inscription.', 'Aucune donnée personnelle collectée : tout reste sur ton appareil.', 'Adapté aux enfants : achats et liens protégés par une question pour adultes.', 'Achat unique facultatif, sans abonnement.'],
  mail='Une question, une idée ? Écris-nous à')
@@ -154,7 +154,7 @@ T['de'] = dict(
       ('🔥', 'Tägliche Motivation', 'Tagestest mit Note, Serie, XP-Ziel, Missionen und Abzeichen. Ideal, um dranzubleiben.'),
       ('🗣️', 'In deiner Sprache', 'Die App spricht Deutsch, Spanisch, Englisch oder Französisch, und Bedeutungen erscheinen als Übersetzung oder Definition.')],
  l_a1='Seekarte in Lexpedition', l_a2='Fortschritt, Rang und Rekorde in Lexpedition',
- l_n='Für Lernende ab etwa 10 Jahren bis Erwachsene. Mehrere Profile auf einem Gerät. Kostenlos auf jedem Niveau: der Tagestest und die ersten 3 Inseln jedes Niveaus; jede Sprache wird mit einem Einmalkauf komplett freigeschaltet.',
+ l_n='Für jedes Alter: von Kindern vor ihrem ersten Zertifikat bis zu Erwachsenen. Mehrere Profile auf einem Gerät. Kostenlos auf jedem Niveau: der Tagestest und die ersten 3 Inseln jedes Niveaus; jede Sprache wird mit einem Einmalkauf komplett freigeschaltet.',
  c_h='Unser Versprechen',
  c=['Keine Werbung, niemals.', 'Kein Konto, keine Anmeldung.', 'Wir sammeln keine personenbezogenen Daten: Alles bleibt auf deinem Gerät.', 'Kindgerecht: Käufe und Links sind durch eine Frage für Erwachsene geschützt.', 'Optionaler Einmalkauf, kein Abo.'],
  mail='Fragen oder Ideen? Schreib uns an')
