@@ -40,7 +40,7 @@ def block(t, lg):
 T = {}
 T['es'] = dict(
  h1='Apps para aprender y jugar en familia',
- lead='Somos MJCStudio, un pequeño estudio independiente de Sevilla. Hacemos apps cuidadas, sin anuncios y sin recoger datos, para pasar buenos ratos juntos y aprender sin darse cuenta.',
+ lead='Somos MJCStudio, un pequeño estudio independiente de España. Hacemos apps cuidadas, sin anuncios y sin recoger datos, para pasar buenos ratos juntos y aprender sin darse cuenta.',
  b1='🎲 Rondalia', b2='⛵ Lexpedition',
  r_k='Momentos de calidad que caben en un móvil',
  r_p='Cualquier rato es bueno para jugar juntos: la sobremesa, un viaje en coche, la espera en un restaurante, una tarde de lluvia o una reunión con amigos. Saca el móvil y empieza la partida. Un solo móvil que se va pasando, sin internet, sin cuentas y sin que nadie tenga que leer instrucciones: abuelos, padres y peques juegan juntos, cada uno a su nivel.',
@@ -70,7 +70,7 @@ T['es'] = dict(
  mail='¿Dudas o ideas? Escríbenos a')
 T['en'] = dict(
  h1='Apps to learn and play together',
- lead="We are MJCStudio, a small independent studio from Seville, Spain. We make carefully crafted apps with no ads and no data collection, for great times together and learning without noticing.",
+ lead="We are MJCStudio, a small independent studio from Spain. We make carefully crafted apps with no ads and no data collection, for great times together and learning without noticing.",
  b1='🎲 Rondalia', b2='⛵ Lexpedition',
  r_k='Quality time that fits in one phone',
  r_p="Any moment is a good moment to play together: after a meal, on a car trip, waiting at a restaurant, on a rainy afternoon or with friends. Bring out your phone and start playing. One phone passed around, no internet, no accounts and no rules to read: grandparents, parents and kids play together, each at their own level.",
@@ -100,7 +100,7 @@ T['en'] = dict(
  mail='Questions or ideas? Write to')
 T['fr'] = dict(
  h1='Des applis pour apprendre et jouer en famille',
- lead="Nous sommes MJCStudio, un petit studio indépendant de Séville. Nous créons des applis soignées, sans publicité et sans collecte de données, pour passer de bons moments ensemble et apprendre sans s'en rendre compte.",
+ lead="Nous sommes MJCStudio, un petit studio indépendant d'Espagne. Nous créons des applis soignées, sans publicité et sans collecte de données, pour passer de bons moments ensemble et apprendre sans s'en rendre compte.",
  b1='🎲 Rondalia', b2='⛵ Lexpedition',
  r_k='Des moments de qualité qui tiennent dans un téléphone',
  r_p="Tous les moments sont bons pour jouer ensemble : après le repas, en voiture, en attendant au restaurant, un après-midi de pluie ou entre amis. Sors ton téléphone et la partie commence. Un seul téléphone qui passe de main en main, sans internet, sans compte et sans règles à lire : grands-parents, parents et enfants jouent ensemble, chacun à son niveau.",
@@ -130,7 +130,7 @@ T['fr'] = dict(
  mail='Une question, une idée ? Écris-nous à')
 T['de'] = dict(
  h1='Apps zum Lernen und gemeinsamen Spielen',
- lead='Wir sind MJCStudio, ein kleines unabhängiges Studio aus Sevilla. Wir machen liebevoll gestaltete Apps ohne Werbung und ohne Datensammlung – für schöne Stunden miteinander und Lernen ganz nebenbei.',
+ lead='Wir sind MJCStudio, ein kleines unabhängiges Studio aus Spanien. Wir machen liebevoll gestaltete Apps ohne Werbung und ohne Datensammlung – für schöne Stunden miteinander und Lernen ganz nebenbei.',
  b1='🎲 Rondalia', b2='⛵ Lexpedition',
  r_k='Wertvolle gemeinsame Momente, die in ein Handy passen',
  r_p='Jeder Moment ist gut, um gemeinsam zu spielen: nach dem Essen, auf der Autofahrt, beim Warten im Restaurant, an einem Regennachmittag oder mit Freunden. Handy raus – und los geht\'s. Ein Handy, das herumgereicht wird, ohne Internet, ohne Konto und ohne Anleitung lesen: Großeltern, Eltern und Kinder spielen zusammen, jeder auf seinem Niveau.',

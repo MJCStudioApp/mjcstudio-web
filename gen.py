@@ -23,10 +23,10 @@ def page(key, root, body):
     menu = ''.join(f'<a href="{h}"{" class=on" if k == key else ""}>' + ''.join(
         f'<span data-l="{l}">{MENU[k][l]}</span>' for l in LANGS) + '</a>' for k, h in links)
     metas = ''.join(f'<meta name="t-{l}" content="{TITLES[key][l]}">' for l in LANGS)
-    foot = L({'es': '© 2026 MJCStudio · Desarrollador independiente · Sevilla (España)',
-              'en': '© 2026 MJCStudio · Independent developer · Seville (Spain)',
-              'fr': '© 2026 MJCStudio · Développeur indépendant · Séville (Espagne)',
-              'de': '© 2026 MJCStudio · Unabhängiger Entwickler · Sevilla (Spanien)'}, 'span')
+    foot = L({'es': '© 2026 MJCStudio · Desarrollador independiente · España',
+              'en': '© 2026 MJCStudio · Independent developer · Spain',
+              'fr': '© 2026 MJCStudio · Développeur indépendant · Espagne',
+              'de': '© 2026 MJCStudio · Unabhängiger Entwickler · Spanien'}, 'span')
     return f'''<!doctype html>
 <html lang="es" data-lang="es">
 <head>
@@ -99,7 +99,7 @@ priv = {
 <p class="updated">{u}</p>
 <div class="box"><p>Esta política se aplica a las apps de <strong>MJCStudio</strong> en Google Play y App Store: <strong>Rondalia</strong> y <strong>Lexpedition</strong>. En pocas palabras: <strong>no recogemos datos personales</strong>, no mostramos anuncios y no usamos herramientas de seguimiento.</p></div>
 <h2>1. Responsable</h2>
-<p>MJCStudio, desarrollador independiente con sede en Sevilla (España). Contacto: <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>
+<p>MJCStudio, desarrollador independiente con sede en España. Contacto: <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>
 <h2>2. Qué datos tratamos</h2>
 <ul>
 <li><strong>Ninguno en nuestros servidores.</strong> Las apps no tienen cuentas ni registro y no envían información a MJCStudio ni a terceros.</li>
@@ -121,7 +121,7 @@ priv = {
 <p class="updated">{u}</p>
 <div class="box"><p>This policy applies to <strong>MJCStudio</strong>'s apps on Google Play and the App Store: <strong>Rondalia</strong> and <strong>Lexpedition</strong>. In short: <strong>we do not collect personal data</strong>, we show no ads and we use no tracking tools.</p></div>
 <h2>1. Who we are</h2>
-<p>MJCStudio, an independent developer based in Seville (Spain). Contact: <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>
+<p>MJCStudio, an independent developer based in Spain. Contact: <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>
 <h2>2. What data we process</h2>
 <ul>
 <li><strong>None on our servers.</strong> The apps have no accounts or sign-up and send no information to MJCStudio or to third parties.</li>
@@ -143,7 +143,7 @@ priv = {
 <p class="updated">{u}</p>
 <div class="box"><p>Cette politique s'applique aux applis de <strong>MJCStudio</strong> sur Google Play et l'App Store : <strong>Rondalia</strong> et <strong>Lexpedition</strong>. En bref : <strong>nous ne collectons aucune donnée personnelle</strong>, nous n'affichons pas de publicité et n'utilisons aucun outil de suivi.</p></div>
 <h2>1. Responsable</h2>
-<p>MJCStudio, développeur indépendant basé à Séville (Espagne). Contact : <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>
+<p>MJCStudio, développeur indépendant basé en Espagne. Contact : <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>
 <h2>2. Données traitées</h2>
 <ul>
 <li><strong>Aucune sur nos serveurs.</strong> Les applis n'ont ni compte ni inscription et n'envoient aucune information à MJCStudio ni à des tiers.</li>
@@ -165,7 +165,7 @@ priv = {
 <p class="updated">{u}</p>
 <div class="box"><p>Diese Erklärung gilt für die Apps von <strong>MJCStudio</strong> bei Google Play und im App Store: <strong>Rondalia</strong> und <strong>Lexpedition</strong>. Kurz gesagt: <strong>Wir erheben keine personenbezogenen Daten</strong>, zeigen keine Werbung und nutzen keine Tracking-Tools.</p></div>
 <h2>1. Verantwortlicher</h2>
-<p>MJCStudio, unabhängiger Entwickler mit Sitz in Sevilla (Spanien). Kontakt: <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>
+<p>MJCStudio, unabhängiger Entwickler mit Sitz in Spanien. Kontakt: <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>
 <h2>2. Welche Daten verarbeitet werden</h2>
 <ul>
 <li><strong>Keine auf unseren Servern.</strong> Die Apps haben kein Konto und keine Anmeldung und senden keine Informationen an MJCStudio oder Dritte.</li>
