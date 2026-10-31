@@ -65,7 +65,7 @@ home = {
 <h2>Nuestro compromiso</h2>
 <ul><li>Sin anuncios.</li><li>Sin cuentas ni registro.</li><li>No recogemos datos personales: todo se guarda en tu móvil.</li><li>Compra única opcional, sin suscripciones.</li></ul>
 <p>¿Dudas o ideas? Escríbenos a <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>''',
-'en': '''<h1>Apps to learn and play together</h1>
+'en': '''<h1>Apps to learn and play</h1>
 <p class="lead">We are MJCStudio, a small independent studio. We make simple, family-friendly apps with no ads and no data collection.</p>
 <div class="apps">
 <div class="app"><img src="img/rondalia.png" alt=""><div><h3>Rondalia</h3><p>Party games for a group with just one phone: trivia, forbidden word, alphabet, charades, flags and more. For all ages, works offline.</p><span class="tag">Coming soon to Google Play and the App Store</span></div></div>
@@ -74,7 +74,7 @@ home = {
 <h2>Our promise</h2>
 <ul><li>No ads.</li><li>No accounts or sign-up.</li><li>We don't collect personal data: everything stays on your device.</li><li>Optional one-time purchase, no subscriptions.</li></ul>
 <p>Questions or ideas? Write to <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>''',
-'fr': '''<h1>Des applis pour apprendre et jouer en famille</h1>
+'fr': '''<h1>Des applis pour apprendre et jouer</h1>
 <p class="lead">Nous sommes MJCStudio, un petit studio indépendant. Nous créons des applis simples, sans publicité et sans collecte de données, pour toute la famille.</p>
 <div class="apps">
 <div class="app"><img src="img/rondalia.png" alt=""><div><h3>Rondalia</h3><p>Des jeux à plusieurs avec un seul téléphone : questions, mot interdit, abécédaire, mime, drapeaux et plus encore. Pour tous les âges, sans internet.</p><span class="tag">Bientôt sur Google Play et l'App Store</span></div></div>
@@ -83,7 +83,7 @@ home = {
 <h2>Notre engagement</h2>
 <ul><li>Pas de publicité.</li><li>Pas de compte ni d'inscription.</li><li>Aucune donnée personnelle collectée : tout reste sur ton appareil.</li><li>Achat unique facultatif, sans abonnement.</li></ul>
 <p>Une question, une idée ? Écris-nous à <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>''',
-'de': '''<h1>Apps zum Lernen und gemeinsamen Spielen</h1>
+'de': '''<h1>Apps zum Lernen und Spielen</h1>
 <p class="lead">Wir sind MJCStudio, ein kleines unabhängiges Studio. Wir machen einfache, familienfreundliche Apps ohne Werbung und ohne Datensammlung.</p>
 <div class="apps">
 <div class="app"><img src="img/rondalia.png" alt=""><div><h3>Rondalia</h3><p>Gruppenspiele mit nur einem Handy: Quizfragen, verbotenes Wort, ABC-Spiel, Pantomime, Flaggen und mehr. Für jedes Alter, ohne Internet.</p><span class="tag">Bald bei Google Play und im App Store</span></div></div>
