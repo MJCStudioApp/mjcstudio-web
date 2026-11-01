@@ -4,6 +4,12 @@ def block(t, lg):
     shots = lambda a, b, alt1, alt2: (f'<div class="shots"><img src="img/{a}-{lg}.jpg" alt="{alt1}" loading="lazy" width="270" height="436">'
                                       f'<img src="img/{b}-{lg}.jpg" alt="{alt2}" loading="lazy" width="270" height="436"></div>')
     feats = lambda items: '<div class="feats">' + ''.join(f'<div class="feat"><span class="fi">{i}</span><div><strong>{h}</strong><br>{d}</div></div>' for i, h, d in items) + '</div>'
+    def beta(app, mail, cls):
+        b = BETA[lg]
+        return (f'<div class="beta"><h3>🧪 {b["h"]}</h3><p>{b["p"].format(mail=f'<a href="mailto:{mail}">{mail}</a>')}</p>'
+                f'<div class="cta"><a class="btn {cls}" href="https://play.google.com/store/apps/details?id=com.mjcstudio.{app}" rel="noopener">{b["and"]}</a>'
+                f'<a class="btn ghost" href="https://play.google.com/apps/testing/com.mjcstudio.{app}" rel="noopener">{b["web"]}</a></div>'
+                f'<p class="small">{b["n"]}</p></div>')
     chips = lambda items: '<div class="chips">' + ''.join(f'<span>{c}</span>' for c in items) + '</div>'
     return f'''<section class="hero">
 <h1>{t['h1']}</h1>
@@ -19,6 +25,7 @@ def block(t, lg):
 <h3>{t['r_gh']}</h3>
 {chips(t['r_g'])}
 <p class="note">{t['r_n']}</p>
+{beta('rondalia', 'rondalia@mjcstudio.com', 'r')}
 </section>
 
 <section class="appsec" id="lexpedition-{lg}">
@@ -28,6 +35,7 @@ def block(t, lg):
 {feats(t['l_f'])}
 {shots('lex-carta', 'lex-progreso', t['l_a1'], t['l_a2'])}
 <p class="note">{t['l_n']}</p>
+{beta('lexpedition', 'lexpedition@mjcstudio.com', 'l')}
 </section>
 
 <section class="promise">
@@ -36,6 +44,13 @@ def block(t, lg):
 <p>{t['mail']} <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a></p>
 </section>'''
 
+
+BETA = {
+ 'es': dict(h='Prueba la beta en Android', p='Estamos en prueba cerrada en Google Play. 1) Escríbenos a {mail} con el Gmail que usas en tu móvil Android y te añadimos. 2) Únete con uno de estos enlaces y descárgala.', **{'and': 'Unirse desde el móvil Android', 'web': 'Unirse desde la web'}, n='Solo para móviles Android con Google Play. Usa la misma cuenta de Gmail que nos diste.'),
+ 'en': dict(h='Try the beta on Android', p="We're in a closed test on Google Play. 1) Email {mail} with the Gmail you use on your Android phone and we'll add you. 2) Join with one of these links and download it.", **{'and': 'Join on your Android phone', 'web': 'Join on the web'}, n='Android phones with Google Play only. Use the same Gmail account you gave us.'),
+ 'fr': dict(h='Teste la bêta sur Android', p="Nous sommes en test fermé sur Google Play. 1) Écris-nous à {mail} avec le Gmail de ton téléphone Android et nous t'ajoutons. 2) Rejoins le test avec l'un de ces liens et télécharge l'appli.", **{'and': 'Rejoindre sur Android', 'web': 'Rejoindre sur le web'}, n='Uniquement pour les téléphones Android avec Google Play. Utilise le même compte Gmail.'),
+ 'de': dict(h='Teste die Beta auf Android', p='Wir sind im geschlossenen Test bei Google Play. 1) Schreib uns an {mail} mit dem Gmail-Konto deines Android-Handys, dann fügen wir dich hinzu. 2) Tritt über einen dieser Links bei und lade die App herunter.', **{'and': 'Auf dem Android-Handy beitreten', 'web': 'Im Web beitreten'}, n='Nur für Android-Handys mit Google Play. Verwende dasselbe Gmail-Konto.'),
+}
 
 T = {}
 T['es'] = dict(

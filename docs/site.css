@@ -56,3 +56,10 @@ html[data-lang=es] [data-l=es],html[data-lang=en] [data-l=en],html[data-lang=fr]
 .chips span{background:#fde9d6;color:#7a2d0c;border-radius:999px;padding:4px 12px;font-weight:600;font-size:.9rem}
 .note{color:var(--muted);font-size:.95rem;margin-top:12px}
 .promise ul{padding-left:20px}
+
+.beta{margin:18px 0 4px;padding:14px 16px;border:2px dashed #c9d3e6;border-radius:16px;background:#f6f8fc}
+.beta h3{margin:0 0 6px}
+.beta p{margin:6px 0}
+.beta .small{font-size:.85rem;color:#4a5568}
+.btn.ghost{background:#fff;color:var(--navy);border:2px solid var(--navy);box-shadow:none}
+.beta .btn{min-height:44px;line-height:1.3}
