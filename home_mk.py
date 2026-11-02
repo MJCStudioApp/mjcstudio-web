@@ -42,8 +42,21 @@ def block(t, lg):
 <h2>{t['c_h']}</h2>
 <ul>{''.join(f'<li>{x}</li>' for x in t['c'])}</ul>
 <p>{t['mail']} <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a></p>
+</section>
+
+<section class="idea">
+<h2>💡 {IDEA[lg]['h']}</h2>
+<p>{IDEA[lg]['p']}</p>
+<div class="cta"><a class="btn ghost" href="mailto:soporte@mjcstudio.com?subject={IDEA[lg]['s']}">{IDEA[lg]['b']}</a></div>
 </section>'''
 
+
+IDEA = {
+ 'es': dict(h='Sugiere una app', p='¿Echas en falta alguna app para aprender o jugar? Cuéntanos tu idea: leemos todas las propuestas.', b='Enviar mi idea', s='Idea%20para%20una%20app'),
+ 'en': dict(h='Suggest an app', p='Is there an app for learning or playing that you wish existed? Tell us your idea: we read every suggestion.', b='Send my idea', s='App%20idea'),
+ 'fr': dict(h='Propose une appli', p="Il te manque une appli pour apprendre ou jouer ? Raconte-nous ton idée : nous lisons toutes les propositions.", b='Envoyer mon idée', s='Id%C3%A9e%20d%27appli'),
+ 'de': dict(h='App vorschlagen', p='Fehlt dir eine App zum Lernen oder Spielen? Erzähl uns deine Idee – wir lesen jeden Vorschlag.', b='Idee senden', s='App-Idee'),
+}
 
 BETA = {
  'es': dict(h='Prueba la beta en Android', p='Estamos en prueba cerrada en Google Play. 1) Escríbenos a {mail} con el Gmail que usas en tu móvil Android y te añadimos. 2) Únete con uno de estos enlaces y descárgala.', **{'and': 'Unirse desde el móvil Android', 'web': 'Unirse desde la web'}, n='Solo para móviles Android con Google Play. Usa la misma cuenta de Gmail que nos diste.'),
@@ -60,15 +73,15 @@ T['es'] = dict(
  r_k='Momentos de calidad que caben en un móvil',
  r_p='Cualquier rato es bueno para jugar juntos: la sobremesa, un viaje en coche, la espera en un restaurante, una tarde de lluvia o una reunión con amigos. Saca el móvil y empieza la partida, en familia, con amigos o tú solo. Un solo móvil que se va pasando, sin internet, sin cuentas y sin que nadie tenga que leer instrucciones: abuelos, padres y peques juegan juntos, cada uno a su nivel.',
  r_f=[('👨‍👩‍👧‍👦', 'Cada uno a su nivel', 'Cuatro grupos de edad (5–7, 8–11, 12–15 y 16+). En la misma partida, el peque recibe su pregunta y el abuelo la suya.'),
-      ('🎲', '11 juegos en una app', 'Desde preguntas y mímica hasta el abecedario, banderas o palabra prohibida. Siempre hay uno que apetece.'),
+      ('🎲', 'Más de 10 juegos en una app', 'Desde preguntas y mímica hasta el abecedario, banderas o palabra prohibida. Siempre hay uno que apetece.'),
       ('📚', 'Miles de preguntas', 'Más de 2.000 preguntas por idioma, cientos de palabras y mímicas, y todo el contenido revisado para que sea apto para niños.'),
-      ('🧒', 'También para jugar solo', 'Preguntas, Abecedario, Cálculo, Banderas y Adivina el número sirven para practicar y aprender con un solo jugador.'),
+      ('🧒', 'También para jugar solo', 'Preguntas, Abecedario, Cálculo, Banderas, Adivina el número y Llega al número sirven para practicar y aprender con un solo jugador.'),
       ('🏆', 'Marcador y turnos', 'La app lleva los puntos, los turnos y el tiempo, para que vosotros solo os preocupéis de pasarlo bien, en familia o con amigos.'),
       ('💬', 'Para conoceros mejor', 'No todo es competir: ¿Qué prefieres?, Conocernos e Historia encadenada abren conversaciones para descubrir gustos, recuerdos y anécdotas de los demás.'),
       ('🎃', 'Sorpresas de temporada', 'Set de Halloween gratis: preguntas, palabras y mímicas, y un estilo visual con calderos de bruja, murciélagos y telarañas.')],
  r_a1='Pantalla de inicio de Rondalia', r_a2='Juego del Abecedario en Rondalia',
  r_gh='Los juegos',
- r_g=['❓ Preguntas', '🤐 Palabra prohibida', '🔤 Abecedario', '🎭 Mímica', '🚩 Banderas', '➗ Cálculo', '🔢 Adivina el número', '🤷 El despistado', '⚖️ ¿Qué prefieres?', '💬 Conocernos', '📖 Historia encadenada'],
+ r_g=['❓ Preguntas', '🤐 Palabra prohibida', '🔤 Abecedario', '🎭 Mímica', '🚩 Banderas', '➗ Cálculo', '🔢 Adivina el número', '🎯 Llega al número', '🤔 ¿Qué elegiría?', '🤷 El despistado', '⚖️ ¿Qué prefieres?', '💬 Conocernos', '📖 Historia encadenada'],
  r_n='En español, inglés, francés y alemán, con preguntas adaptadas a cada país. Edición de lanzamiento: ahora gratis y completa, sin compras. Descárgala ahora y tenla completa para siempre.',
  l_k='Rumbo fijo: aprobar tu examen',
  l_p='Lexpedition convierte la preparación de tu examen oficial de idiomas en una travesía por el mar, y el puerto de destino es el aprobado. Cada lección es una isla que conquistar y cada expresión que dominas es una milla menos hasta la meta. Con cinco o diez minutos al día llegarás al examen con el vocabulario que más se resiste.',
@@ -91,15 +104,15 @@ T['en'] = dict(
  r_k='Quality time that fits in one phone',
  r_p="Any moment is a good moment to play together: after a meal, on a car trip, waiting at a restaurant, on a rainy afternoon or with friends. Bring out your phone and start playing, with family, with friends or on your own. One phone passed around, no internet, no accounts and no rules to read: grandparents, parents and kids play together, each at their own level.",
  r_f=[('👨‍👩‍👧‍👦', 'Everyone at their level', 'Four age groups (5–7, 8–11, 12–15 and 16+). In the same game, the little one gets their question and grandpa gets his.'),
-      ('🎲', '11 games in one app', 'From quiz and charades to the alphabet wheel, flags or forbidden words. There is always one you feel like playing.'),
+      ('🎲', 'More than 10 games in one app', 'From quiz and charades to the alphabet wheel, flags or forbidden words. There is always one you feel like playing.'),
       ('📚', 'Thousands of questions', 'Over 2,000 questions per language, hundreds of words and charades, all checked to be child-friendly.'),
-      ('🧒', 'Solo play too', 'Quiz, Alphabet Wheel, Mental Math, Flags and Guess the Number are great for practising and learning on your own.'),
+      ('🧒', 'Solo play too', 'Quiz, Alphabet Wheel, Mental Math, Flags, Guess the Number and Reach the Number are great for practising and learning on your own.'),
       ('🏆', 'Scores and turns', 'The app keeps the score, turns and time, so all you have to do is have fun, with family or friends.'),
       ('💬', 'Get to know each other better', 'It is not all about winning: Would You Rather?, Get to Know You and Story Chain spark conversations to discover the tastes, memories and stories of the people around you.'),
       ('🎃', 'Seasonal surprises', 'A free Halloween set: questions, words and charades, plus a visual style with witch cauldrons, bats and cobwebs.')],
  r_a1='Rondalia home screen', r_a2='Alphabet Wheel in Rondalia',
  r_gh='The games',
- r_g=['❓ Quiz', '🤐 Forbidden Words', '🔤 Alphabet Wheel', '🎭 Charades', '🚩 Flags', '➗ Mental Math', '🔢 Guess the Number', '🤷 The Clueless One', '⚖️ Would You Rather?', '💬 Get to Know You', '📖 Story Chain'],
+ r_g=['❓ Quiz', '🤐 Forbidden Words', '🔤 Alphabet Wheel', '🎭 Charades', '🚩 Flags', '➗ Mental Math', '🔢 Guess the Number', '🎯 Reach the Number', '🤔 What Would They Pick?', '🤷 The Clueless One', '⚖️ Would You Rather?', '💬 Get to Know You', '📖 Story Chain'],
  r_n='In English, Spanish, French and German, with questions adapted to each country. Launch edition: free and complete right now, no purchases. Download it now and keep the full version forever.',
  l_k='Set your course for passing your exam',
  l_p='Lexpedition turns preparing for your official language exam into a voyage across the sea, and the destination port is a pass. Each lesson is an island to conquer and every expression you master is one mile closer to the goal. With five or ten minutes a day you will reach exam day with the vocabulary that resists the most.',
@@ -122,15 +135,15 @@ T['fr'] = dict(
  r_k='Des moments de qualité qui tiennent dans un téléphone',
  r_p="Tous les moments sont bons pour jouer ensemble : après le repas, en voiture, en attendant au restaurant, un après-midi de pluie ou entre amis. Sors ton téléphone et la partie commence, en famille, entre amis ou en solo. Un seul téléphone qui passe de main en main, sans internet, sans compte et sans règles à lire : grands-parents, parents et enfants jouent ensemble, chacun à son niveau.",
  r_f=[('👨‍👩‍👧‍👦', 'Chacun à son niveau', 'Quatre tranches d\'âge (5–7, 8–11, 12–15 et 16+). Dans la même partie, le petit a sa question et le grand-père la sienne.'),
-      ('🎲', '11 jeux dans une appli', 'Du quiz et du mime à la roue de l\'alphabet, aux drapeaux ou aux mots interdits. Il y en a toujours un qui fait envie.'),
+      ('🎲', 'Plus de 10 jeux dans une appli', 'Du quiz et du mime à la roue de l\'alphabet, aux drapeaux ou aux mots interdits. Il y en a toujours un qui fait envie.'),
       ('📚', 'Des milliers de questions', 'Plus de 2 000 questions par langue, des centaines de mots et de mimes, tout vérifié pour convenir aux enfants.'),
-      ('🧒', 'Aussi pour jouer seul', 'Quiz, Roue de l\'alphabet, Calcul mental, Drapeaux et Devine le nombre permettent de s\'entraîner et d\'apprendre en solo.'),
+      ('🧒', 'Aussi pour jouer seul', 'Quiz, Roue de l\'alphabet, Calcul mental, Drapeaux, Devine le nombre et Atteins le nombre permettent de s\'entraîner et d\'apprendre en solo.'),
       ('🏆', 'Score et tours', 'L\'appli compte les points, les tours et le temps : vous n\'avez plus qu\'à vous amuser, en famille ou entre amis.'),
       ('💬', 'Pour mieux se connaître', 'Il n\'y a pas que la compétition : Tu préfères ?, Faisons connaissance et Histoire à la chaîne lancent des conversations pour découvrir les goûts, les souvenirs et les anecdotes des autres.'),
       ('🎃', 'Surprises de saison', 'Un pack Halloween gratuit : questions, mots et mimes, et un style visuel avec chaudrons de sorcière, chauves-souris et toiles d\'araignée.')],
  r_a1="Écran d'accueil de Rondalia", r_a2="Roue de l'alphabet dans Rondalia",
  r_gh='Les jeux',
- r_g=['❓ Quiz', '🤐 Mots interdits', "🔤 Roue de l'alphabet", '🎭 Mime', '🚩 Drapeaux', '➗ Calcul mental', '🔢 Devine le nombre', '🤷 Le Distrait', '⚖️ Tu préfères ?', '💬 Faisons connaissance', '📖 Histoire à la chaîne'],
+ r_g=['❓ Quiz', '🤐 Mots interdits', "🔤 Roue de l'alphabet", '🎭 Mime', '🚩 Drapeaux', '➗ Calcul mental', '🔢 Devine le nombre', '🎯 Atteins le nombre', '🤔 Devine son choix', '🤷 Le Distrait', '⚖️ Tu préfères ?', '💬 Faisons connaissance', '📖 Histoire à la chaîne'],
  r_n="En français, espagnol, anglais et allemand, avec des questions adaptées à chaque pays. Édition de lancement : gratuite et complète en ce moment, sans achat. Télécharge-la maintenant et garde la version complète pour toujours.",
  l_k='Cap sur la réussite de ton examen',
  l_p="Lexpedition transforme la préparation de ton examen officiel de langue en une traversée en mer, et le port d'arrivée, c'est la réussite. Chaque leçon est une île à conquérir et chaque expression maîtrisée est un mille de moins vers le but. Avec cinq ou dix minutes par jour, tu arriveras à l'examen avec le vocabulaire qui résiste le plus.",
@@ -153,15 +166,15 @@ T['de'] = dict(
  r_k='Wertvolle gemeinsame Momente, die in ein Handy passen',
  r_p='Jeder Moment ist gut, um gemeinsam zu spielen: nach dem Essen, auf der Autofahrt, beim Warten im Restaurant, an einem Regennachmittag oder mit Freunden. Handy raus – und los geht\'s, mit der Familie, mit Freunden oder allein. Ein Handy, das herumgereicht wird, ohne Internet, ohne Konto und ohne Anleitung lesen: Großeltern, Eltern und Kinder spielen zusammen, jeder auf seinem Niveau.',
  r_f=[('👨‍👩‍👧‍👦', 'Jeder auf seinem Niveau', 'Vier Altersgruppen (5–7, 8–11, 12–15 und 16+). Im selben Spiel bekommt das Kind seine Frage und der Opa seine.'),
-      ('🎲', '11 Spiele in einer App', 'Von Quiz und Pantomime bis Buchstabenrad, Flaggen oder verbotene Wörter. Irgendeins passt immer.'),
+      ('🎲', 'Über 10 Spiele in einer App', 'Von Quiz und Pantomime bis Buchstabenrad, Flaggen oder verbotene Wörter. Irgendeins passt immer.'),
       ('📚', 'Tausende Fragen', 'Über 2.000 Fragen pro Sprache, Hunderte Wörter und Pantomimen – alles kindgerecht geprüft.'),
-      ('🧒', 'Auch allein spielbar', 'Quiz, Buchstabenrad, Kopfrechnen, Flaggen und Zahlenraten eignen sich zum Üben und Lernen mit nur einem Spieler.'),
+      ('🧒', 'Auch allein spielbar', 'Quiz, Buchstabenrad, Kopfrechnen, Flaggen, Zahlenraten und Triff die Zahl eignen sich zum Üben und Lernen mit nur einem Spieler.'),
       ('🏆', 'Punkte und Runden', 'Die App zählt Punkte, Runden und Zeit – ihr müsst nur noch Spaß haben, mit der Familie oder mit Freunden.'),
       ('💬', 'Einander besser kennenlernen', 'Es geht nicht nur ums Gewinnen: Was wäre dir lieber?, Kennenlernen und Kettengeschichte bringen Gespräche in Gang, in denen ihr Vorlieben, Erinnerungen und Anekdoten der anderen entdeckt.'),
       ('🎃', 'Saison-Überraschungen', 'Ein kostenloses Halloween-Paket: Fragen, Wörter und Pantomimen, dazu ein Stil mit Hexenkesseln, Fledermäusen und Spinnweben.')],
  r_a1='Startbildschirm von Rondalia', r_a2='Buchstabenrad in Rondalia',
  r_gh='Die Spiele',
- r_g=['❓ Quiz', '🤐 Verbotene Wörter', '🔤 Buchstabenrad', '🎭 Pantomime', '🚩 Flaggen', '➗ Kopfrechnen', '🔢 Zahlenraten', '🤷 Der Ahnungslose', '⚖️ Was wäre dir lieber?', '💬 Kennenlernen', '📖 Kettengeschichte'],
+ r_g=['❓ Quiz', '🤐 Verbotene Wörter', '🔤 Buchstabenrad', '🎭 Pantomime', '🚩 Flaggen', '➗ Kopfrechnen', '🔢 Zahlenraten', '🎯 Triff die Zahl', '🤔 Rate die Wahl', '🤷 Der Ahnungslose', '⚖️ Was wäre dir lieber?', '💬 Kennenlernen', '📖 Kettengeschichte'],
  r_n='Auf Deutsch, Spanisch, Englisch und Französisch, mit Fragen für jedes Land. Launch-Edition: aktuell kostenlos und komplett, ohne Käufe. Jetzt herunterladen und die Vollversion für immer behalten.',
  l_k='Kurs auf deine bestandene Prüfung',
  l_p='Lexpedition macht aus der Vorbereitung auf deine offizielle Sprachprüfung eine Reise übers Meer – und der Zielhafen ist das Bestehen. Jede Lektion ist eine Insel, die du eroberst, und jeder Ausdruck, den du beherrschst, ist eine Seemeile näher am Ziel. Mit fünf bis zehn Minuten am Tag gehst du mit genau dem Wortschatz in die Prüfung, der am schwersten fällt.',
