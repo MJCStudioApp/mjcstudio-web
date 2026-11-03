@@ -25,6 +25,7 @@ def block(t, lg):
 <h3>{t['r_gh']}</h3>
 {chips(t['r_g'])}
 <p class="note">{t['r_n']}</p>
+<p class="note">{FOLLOW[lg]['r']} <a href="https://x.com/Rondalia" rel="noopener">𝕏 @Rondalia</a></p>
 {beta('rondalia', 'rondalia@mjcstudio.com', 'r')}
 </section>
 
@@ -42,6 +43,7 @@ def block(t, lg):
 <h2>{t['c_h']}</h2>
 <ul>{''.join(f'<li>{x}</li>' for x in t['c'])}</ul>
 <p>{t['mail']} <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a></p>
+<p>{FOLLOW[lg]['p']} <a href="https://x.com/MJCStudioApp" rel="noopener">𝕏 @MJCStudioApp</a> · <a href="https://x.com/Rondalia" rel="noopener">𝕏 @Rondalia</a></p>
 </section>
 
 <section class="idea">
@@ -50,6 +52,13 @@ def block(t, lg):
 <div class="cta"><a class="btn ghost" href="mailto:soporte@mjcstudio.com?subject={IDEA[lg]['s']}">{IDEA[lg]['b']}</a></div>
 </section>'''
 
+
+FOLLOW = {
+ 'es': dict(p='Síguenos en X para conocer las novedades:', r='Novedades, juegos nuevos y sets de temporada en'),
+ 'en': dict(p='Follow us on X for news:', r='News, new games and seasonal sets on'),
+ 'fr': dict(p='Suis-nous sur X pour les nouveautés :', r='Nouveautés, nouveaux jeux et sets de saison sur'),
+ 'de': dict(p='Folge uns auf X für Neuigkeiten:', r='Neuigkeiten, neue Spiele und Saison-Sets auf'),
+}
 
 IDEA = {
  'es': dict(h='Sugiere una app', p='¿Echas en falta alguna app para aprender o jugar? Cuéntanos tu idea: leemos todas las propuestas.', b='Enviar mi idea', s='Idea%20para%20una%20app'),

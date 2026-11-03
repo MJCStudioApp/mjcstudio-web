@@ -64,3 +64,4 @@ html[data-lang=es] [data-l=es],html[data-lang=en] [data-l=en],html[data-lang=fr]
 .btn.ghost{background:#fff;color:var(--navy);border:2px solid var(--navy);box-shadow:none}
 .beta .btn{min-height:44px;line-height:1.3}
 .idea{text-align:center}.idea .cta{justify-content:center}
+a[href^="https://x.com"]{white-space:nowrap}
