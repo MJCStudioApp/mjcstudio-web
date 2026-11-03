@@ -32,7 +32,7 @@ footer{border-top:1px solid var(--line);padding:18px 0 30px;color:var(--muted);f
 footer a{color:var(--muted)}
 .updated{color:var(--muted);font-size:.9rem}
 [data-l]{display:none}
-html[data-lang=es] [data-l=es],html[data-lang=en] [data-l=en],html[data-lang=fr] [data-l=fr],html[data-lang=de] [data-l=de]{display:revert}
+html[data-lang=es] [data-l=es],html[data-lang=en] [data-l=en],html[data-lang=fr] [data-l=fr],html[data-lang=de] [data-l=de],html[data-lang=pt] [data-l=pt]{display:revert}
 .hero{padding-top:4px}
 .cta{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 8px}
 .btn{display:inline-block;text-decoration:none;font-weight:800;border-radius:999px;padding:11px 18px;color:#fff;box-shadow:0 3px 0 rgba(0,0,0,.18)}

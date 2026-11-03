@@ -58,6 +58,7 @@ FOLLOW = {
  'en': dict(p='Follow us on X and Instagram for news:', r='News, new games and seasonal sets on'),
  'fr': dict(p='Suis-nous sur X et Instagram pour les nouveautés :', r='Nouveautés, nouveaux jeux et sets de saison sur'),
  'de': dict(p='Folge uns auf X und Instagram für Neuigkeiten:', r='Neuigkeiten, neue Spiele und Saison-Sets auf'),
+ 'pt': dict(p='Segue-nos no X e no Instagram para saberes as novidades:', r='Novidades, jogos novos e coleções da época em'),
 }
 
 IDEA = {
@@ -65,6 +66,7 @@ IDEA = {
  'en': dict(h='Suggest an app', p='Is there an app for learning or playing that you wish existed? Tell us your idea: we read every suggestion.', b='Send my idea', s='App%20idea'),
  'fr': dict(h='Propose une appli', p="Il te manque une appli pour apprendre ou jouer ? Raconte-nous ton idée : nous lisons toutes les propositions.", b='Envoyer mon idée', s='Id%C3%A9e%20d%27appli'),
  'de': dict(h='App vorschlagen', p='Fehlt dir eine App zum Lernen oder Spielen? Erzähl uns deine Idee – wir lesen jeden Vorschlag.', b='Idee senden', s='App-Idee'),
+ 'pt': dict(h='Sugere uma app', p='Falta-te alguma app para aprender ou jogar? Conta-nos a tua ideia: lemos todas as sugestões.', b='Enviar a minha ideia', s='Ideia%20para%20uma%20app'),
 }
 
 BETA = {
@@ -72,6 +74,7 @@ BETA = {
  'en': dict(h='Try the beta on Android', p="We're in a closed test on Google Play. 1) Email {mail} with the Gmail you use on your Android phone and we'll add you. 2) Join with one of these links and download it.", **{'and': 'Join on your Android phone', 'web': 'Join on the web'}, n='Android phones with Google Play only. Use the same Gmail account you gave us.'),
  'fr': dict(h='Teste la bêta sur Android', p="Nous sommes en test fermé sur Google Play. 1) Écris-nous à {mail} avec le Gmail de ton téléphone Android et nous t'ajoutons. 2) Rejoins le test avec l'un de ces liens et télécharge l'appli.", **{'and': 'Rejoindre sur Android', 'web': 'Rejoindre sur le web'}, n='Uniquement pour les téléphones Android avec Google Play. Utilise le même compte Gmail.'),
  'de': dict(h='Teste die Beta auf Android', p='Wir sind im geschlossenen Test bei Google Play. 1) Schreib uns an {mail} mit dem Gmail-Konto deines Android-Handys, dann fügen wir dich hinzu. 2) Tritt über einen dieser Links bei und lade die App herunter.', **{'and': 'Auf dem Android-Handy beitreten', 'web': 'Im Web beitreten'}, n='Nur für Android-Handys mit Google Play. Verwende dasselbe Gmail-Konto.'),
+ 'pt': dict(h='Experimenta a beta no Android', p='Estamos em teste fechado no Google Play. 1) Escreve-nos para {mail} com o Gmail que usas no teu telemóvel Android e adicionamos-te. 2) Junta-te com uma destas ligações e descarrega a app.', **{'and': 'Juntar-me no telemóvel Android', 'web': 'Juntar-me na web'}, n='Só para telemóveis Android com Google Play. Usa a mesma conta Gmail que nos deste.'),
 }
 
 T = {}
@@ -91,7 +94,7 @@ T['es'] = dict(
  r_a1='Pantalla de inicio de Rondalia', r_a2='Juego del Abecedario en Rondalia',
  r_gh='Los juegos',
  r_g=['❓ Preguntas', '🤐 Palabra prohibida', '🔤 Abecedario', '🎭 Mímica', '🚩 Banderas', '➗ Cálculo', '🔢 Adivina el número', '🎯 Llega al número', '🤔 ¿Qué elegiría?', '🤷 El despistado', '⚖️ ¿Qué prefieres?', '💬 Conocernos', '📖 Historia encadenada'],
- r_n='En español, inglés, francés y alemán, con preguntas adaptadas a cada país. Edición de lanzamiento: ahora gratis y completa, sin compras. Descárgala ahora y tenla completa para siempre.',
+ r_n='En español, inglés, francés, alemán y portugués, con preguntas adaptadas a cada país. Edición de lanzamiento: ahora gratis y completa, sin compras. Descárgala ahora y tenla completa para siempre.',
  l_k='Rumbo fijo: aprobar tu examen',
  l_p='Lexpedition convierte la preparación de tu examen oficial de idiomas en una travesía por el mar, y el puerto de destino es el aprobado. Cada lección es una isla que conquistar y cada expresión que dominas es una milla menos hasta la meta. Con cinco o diez minutos al día llegarás al examen con el vocabulario que más se resiste.',
  l_langs=['🇬🇧 Inglés', '🇩🇪 Alemán', '🇫🇷 Francés', '🇪🇸 Español', 'Niveles A1 · A2 · B1 · B2 · C1 · C2'],
@@ -122,7 +125,7 @@ T['en'] = dict(
  r_a1='Rondalia home screen', r_a2='Alphabet Wheel in Rondalia',
  r_gh='The games',
  r_g=['❓ Quiz', '🤐 Forbidden Words', '🔤 Alphabet Wheel', '🎭 Charades', '🚩 Flags', '➗ Mental Math', '🔢 Guess the Number', '🎯 Reach the Number', '🤔 What Would They Pick?', '🤷 The Clueless One', '⚖️ Would You Rather?', '💬 Get to Know You', '📖 Story Chain'],
- r_n='In English, Spanish, French and German, with questions adapted to each country. Launch edition: free and complete right now, no purchases. Download it now and keep the full version forever.',
+ r_n='In English, Spanish, French, German and Portuguese, with questions adapted to each country. Launch edition: free and complete right now, no purchases. Download it now and keep the full version forever.',
  l_k='Set your course for passing your exam',
  l_p='Lexpedition turns preparing for your official language exam into a voyage across the sea, and the destination port is a pass. Each lesson is an island to conquer and every expression you master is one mile closer to the goal. With five or ten minutes a day you will reach exam day with the vocabulary that resists the most.',
  l_langs=['🇬🇧 English', '🇩🇪 German', '🇫🇷 French', '🇪🇸 Spanish', 'Levels A1 · A2 · B1 · B2 · C1 · C2'],
@@ -153,7 +156,7 @@ T['fr'] = dict(
  r_a1="Écran d'accueil de Rondalia", r_a2="Roue de l'alphabet dans Rondalia",
  r_gh='Les jeux',
  r_g=['❓ Quiz', '🤐 Mots interdits', "🔤 Roue de l'alphabet", '🎭 Mime', '🚩 Drapeaux', '➗ Calcul mental', '🔢 Devine le nombre', '🎯 Atteins le nombre', '🤔 Devine son choix', '🤷 Le Distrait', '⚖️ Tu préfères ?', '💬 Faisons connaissance', '📖 Histoire à la chaîne'],
- r_n="En français, espagnol, anglais et allemand, avec des questions adaptées à chaque pays. Édition de lancement : gratuite et complète en ce moment, sans achat. Télécharge-la maintenant et garde la version complète pour toujours.",
+ r_n="En français, espagnol, anglais, allemand et portugais, avec des questions adaptées à chaque pays. Édition de lancement : gratuite et complète en ce moment, sans achat. Télécharge-la maintenant et garde la version complète pour toujours.",
  l_k='Cap sur la réussite de ton examen',
  l_p="Lexpedition transforme la préparation de ton examen officiel de langue en une traversée en mer, et le port d'arrivée, c'est la réussite. Chaque leçon est une île à conquérir et chaque expression maîtrisée est un mille de moins vers le but. Avec cinq ou dix minutes par jour, tu arriveras à l'examen avec le vocabulaire qui résiste le plus.",
  l_langs=['🇬🇧 Anglais', '🇩🇪 Allemand', '🇫🇷 Français', '🇪🇸 Espagnol', 'Niveaux A1 · A2 · B1 · B2 · C1 · C2'],
@@ -184,7 +187,7 @@ T['de'] = dict(
  r_a1='Startbildschirm von Rondalia', r_a2='Buchstabenrad in Rondalia',
  r_gh='Die Spiele',
  r_g=['❓ Quiz', '🤐 Verbotene Wörter', '🔤 Buchstabenrad', '🎭 Pantomime', '🚩 Flaggen', '➗ Kopfrechnen', '🔢 Zahlenraten', '🎯 Triff die Zahl', '🤔 Rate die Wahl', '🤷 Der Ahnungslose', '⚖️ Was wäre dir lieber?', '💬 Kennenlernen', '📖 Kettengeschichte'],
- r_n='Auf Deutsch, Spanisch, Englisch und Französisch, mit Fragen für jedes Land. Launch-Edition: aktuell kostenlos und komplett, ohne Käufe. Jetzt herunterladen und die Vollversion für immer behalten.',
+ r_n='Auf Deutsch, Spanisch, Englisch, Französisch und Portugiesisch, mit Fragen für jedes Land. Launch-Edition: aktuell kostenlos und komplett, ohne Käufe. Jetzt herunterladen und die Vollversion für immer behalten.',
  l_k='Kurs auf deine bestandene Prüfung',
  l_p='Lexpedition macht aus der Vorbereitung auf deine offizielle Sprachprüfung eine Reise übers Meer – und der Zielhafen ist das Bestehen. Jede Lektion ist eine Insel, die du eroberst, und jeder Ausdruck, den du beherrschst, ist eine Seemeile näher am Ziel. Mit fünf bis zehn Minuten am Tag gehst du mit genau dem Wortschatz in die Prüfung, der am schwersten fällt.',
  l_langs=['🇬🇧 Englisch', '🇩🇪 Deutsch', '🇫🇷 Französisch', '🇪🇸 Spanisch', 'Niveaus A1 · A2 · B1 · B2 · C1 · C2'],
@@ -199,5 +202,37 @@ T['de'] = dict(
  c_h='Unser Versprechen',
  c=['Keine Werbung, niemals.', 'Kein Konto, keine Anmeldung.', 'Wir sammeln keine personenbezogenen Daten: Alles bleibt auf deinem Gerät.', 'Kindgerecht: Käufe und Links sind durch eine Frage für Erwachsene geschützt.', 'Optionaler Einmalkauf, kein Abo.'],
  mail='Fragen oder Ideen? Schreib uns an')
+
+T['pt'] = dict(
+ h1='Apps para aprender e jogar',
+ lead='Somos a MJCStudio, um pequeno estúdio independente de Espanha. Fazemos apps cuidadas, sem anúncios e sem recolher dados, para passar bons momentos juntos e aprender sem dar por isso.',
+ b1='🎲 Rondalia', b2='⛵ Lexpedition',
+ r_k='Momentos que valem a pena, num só telemóvel',
+ r_p='Qualquer momento é bom para jogar juntos: depois do jantar, numa viagem de carro, à espera num restaurante, numa tarde de chuva ou com amigos. Pega no telemóvel e começa a partida, em família, com amigos ou sozinho. Um só telemóvel que vai passando de mão em mão, sem internet, sem contas e sem ninguém ter de ler instruções: avós, pais e pequenos jogam juntos, cada um ao seu nível.',
+ r_f=[('👨‍👩‍👧‍👦', 'Cada um ao seu nível', 'Quatro grupos de idade (5–7, 8–11, 12–15 e 16+). Na mesma partida, o pequeno recebe a sua pergunta e o avô a dele.'),
+      ('🎲', 'Mais de 10 jogos numa só app', 'Das perguntas e da mímica ao abecedário, às bandeiras ou à palavra proibida. Há sempre um que apetece.'),
+      ('📚', 'Milhares de perguntas', 'Mais de 2000 perguntas por idioma, adaptadas a Portugal, centenas de palavras e mímicas, e todo o conteúdo revisto para ser adequado a crianças.'),
+      ('🧒', 'Também para jogar sozinho', 'Perguntas, Abecedário, Cálculo, Bandeiras, Adivinha o número e Chega ao número servem para praticar e aprender com um só jogador.'),
+      ('🏆', 'Pontuação e vezes', 'A app conta os pontos, as vezes e o tempo, para que vocês só tenham de se divertir, em família ou com amigos.'),
+      ('💬', 'Para se conhecerem melhor', 'Nem tudo é competir: O que preferes?, Conhecermo-nos e História encadeada abrem conversas para descobrir gostos, memórias e histórias dos outros.'),
+      ('🌱', 'Sempre a crescer', 'A Rondalia é atualizada com frequência: jogos novos, mais perguntas e coleções grátis para as datas especiais do ano, com o seu próprio estilo visual.')],
+ r_a1='Ecrã inicial da Rondalia', r_a2='Jogo do Abecedário na Rondalia',
+ r_gh='Os jogos',
+ r_g=['❓ Perguntas', '🤐 Palavra proibida', '🔤 Abecedário', '🎭 Mímica', '🚩 Bandeiras', '➗ Cálculo', '🔢 Adivinha o número', '🎯 Chega ao número', '🤔 O que escolheria?', '🤷 O distraído', '⚖️ O que preferes?', '💬 Conhecermo-nos', '📖 História encadeada'],
+ r_n='Em português, espanhol, inglês, francês e alemão, com perguntas adaptadas a cada país. Edição de lançamento: agora grátis e completa, sem compras. Descarrega-a já e fica com ela completa para sempre.',
+ l_k='Rumo certo: passar no teu exame',
+ l_p='A Lexpedition transforma a preparação do teu exame oficial de línguas numa travessia pelo mar, e o porto de chegada é a aprovação. Cada lição é uma ilha para conquistar e cada expressão que dominas é uma milha a menos até à meta. Com cinco ou dez minutos por dia, chegarás ao exame com o vocabulário que mais resiste.',
+ l_langs=['🇬🇧 Inglês', '🇩🇪 Alemão', '🇫🇷 Francês', '🇪🇸 Espanhol', 'Níveis A1 · A2 · B1 · B2 · C1 · C2'],
+ l_f=[('🌍', 'Quatro línguas para estudar', 'Prepara inglês, alemão, francês ou espanhol, do nível A1 ao C2 do Quadro Europeu Comum de Referência. Podes estudar várias ao mesmo tempo.'),
+      ('🧩', 'O que mais custa', 'Verbos com partícula ou preposição (phrasal verbs, trennbare Verben…), expressões idiomáticas e colocações, com frases de exemplo reais.'),
+      ('🗺️', 'Uma carta de navegação', 'Escolhe o teu rumo entre ilhas misteriosas, dissipa o nevoeiro e planta a tua bandeira. Sobe de Grumete a Almirante.'),
+      ('🧠', 'Revisão inteligente', 'Cartões, escolher a partícula, completar espaços e juntar pares, com repetição espaçada para não esqueceres o que aprendeste.'),
+      ('🔥', 'Motivação diária', 'Teste diário com nota, sequência, meta de XP, missões e medalhas. Ideal para criar o hábito.'),
+      ('🗣️', 'Na tua língua', 'A app está em espanhol, inglês, francês ou alemão, e os significados podem aparecer traduzidos ou como definição.')],
+ l_a1='Carta de navegação da Lexpedition', l_a2='Progresso, posto e recordes na Lexpedition',
+ l_n='Para qualquer idade: de crianças que preparam o primeiro certificado a adultos. Vários perfis no mesmo telemóvel. Edição de lançamento: agora grátis e completa, com as quatro línguas e todos os níveis. Descarrega-a já e fica com ela completa para sempre.',
+ c_h='O nosso compromisso',
+ c=['Sem anúncios, nunca.', 'Sem contas nem registo.', 'Não recolhemos dados pessoais: tudo fica guardado no teu telemóvel.', 'Adequadas a menores: compras e ligações protegidas com uma pergunta para adultos.', 'Compra única opcional, sem subscrições.'],
+ mail='Dúvidas ou ideias? Escreve-nos para')
 
 home = {l: block(T[l], l) for l in T}

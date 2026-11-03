@@ -1,17 +1,17 @@
 # Genera la web estática de MJCStudio (portada, privacidad y soporte) en 4 idiomas.
 import os
 OUT = os.path.join(os.path.dirname(__file__), 'docs')
-LANGS = ['es', 'en', 'fr', 'de']
+LANGS = ['es', 'en', 'fr', 'de', 'pt']
 UPDATED = {'es': 'Última actualización: 29 de octubre de 2026', 'en': 'Last updated: 29 October 2026',
-           'fr': 'Dernière mise à jour : 29 octobre 2026', 'de': 'Letzte Aktualisierung: 29. Oktober 2026'}
-MENU = {'home': {'es': 'Inicio', 'en': 'Home', 'fr': 'Accueil', 'de': 'Start'},
-        'priv': {'es': 'Privacidad', 'en': 'Privacy', 'fr': 'Confidentialité', 'de': 'Datenschutz'},
-        'sup': {'es': 'Soporte', 'en': 'Support', 'fr': 'Assistance', 'de': 'Support'}}
+           'fr': 'Dernière mise à jour : 29 octobre 2026', 'de': 'Letzte Aktualisierung: 29. Oktober 2026', 'pt': 'Última atualização: 3 de novembro de 2026'}
+MENU = {'home': {'es': 'Inicio', 'en': 'Home', 'fr': 'Accueil', 'de': 'Start', 'pt': 'Início'},
+        'priv': {'es': 'Privacidad', 'en': 'Privacy', 'fr': 'Confidentialité', 'de': 'Datenschutz', 'pt': 'Privacidade'},
+        'sup': {'es': 'Soporte', 'en': 'Support', 'fr': 'Assistance', 'de': 'Support', 'pt': 'Apoio'}}
 TITLES = {'home': {'es': 'MJCStudio · Apps para aprender y jugar', 'en': 'MJCStudio · Apps to learn and play',
-                   'fr': 'MJCStudio · Applis pour apprendre et jouer', 'de': 'MJCStudio · Apps zum Lernen und Spielen'},
+                   'fr': 'MJCStudio · Applis pour apprendre et jouer', 'de': 'MJCStudio · Apps zum Lernen und Spielen', 'pt': 'MJCStudio · Apps para aprender e jogar'},
           'priv': {'es': 'Política de privacidad · MJCStudio', 'en': 'Privacy policy · MJCStudio',
-                   'fr': 'Politique de confidentialité · MJCStudio', 'de': 'Datenschutzerklärung · MJCStudio'},
-          'sup': {'es': 'Soporte · MJCStudio', 'en': 'Support · MJCStudio', 'fr': 'Assistance · MJCStudio', 'de': 'Support · MJCStudio'}}
+                   'fr': 'Politique de confidentialité · MJCStudio', 'de': 'Datenschutzerklärung · MJCStudio', 'pt': 'Política de privacidade · MJCStudio'},
+          'sup': {'es': 'Soporte · MJCStudio', 'en': 'Support · MJCStudio', 'fr': 'Assistance · MJCStudio', 'de': 'Support · MJCStudio', 'pt': 'Apoio · MJCStudio'}}
 
 
 def L(d, tag='div'):
@@ -26,7 +26,8 @@ def page(key, root, body):
     foot = L({'es': '© 2026 MJCStudio · Desarrollador independiente · España',
               'en': '© 2026 MJCStudio · Independent developer · Spain',
               'fr': '© 2026 MJCStudio · Développeur indépendant · Espagne',
-              'de': '© 2026 MJCStudio · Unabhängiger Entwickler · Spanien'}, 'span')
+              'de': '© 2026 MJCStudio · Unabhängiger Entwickler · Spanien',
+              'pt': '© 2026 MJCStudio · Programador independente · Espanha'}, 'span')
     return f'''<!doctype html>
 <html lang="es" data-lang="es">
 <head>
@@ -42,7 +43,7 @@ def page(key, root, body):
 <body>
 <header><div class="wrap" style="max-width:860px;margin:0 auto">
 <a class="logo" href="{root}"><img src="{root}img/mjcstudio.png" alt="MJCStudio" height="64"></a>
-<nav class="langs" aria-label="Idioma / Language"><button data-set="es">ES</button><button data-set="en">EN</button><button data-set="fr">FR</button><button data-set="de">DE</button></nav>
+<nav class="langs" aria-label="Idioma / Language"><button data-set="es">ES</button><button data-set="en">EN</button><button data-set="fr">FR</button><button data-set="de">DE</button><button data-set="pt">PT</button></nav>
 </div><div class="wrap" style="max-width:860px;margin:0 auto;padding:0"><nav class="menu">{menu}</nav></div></header>
 <main><div class="wrap">
 {body}
@@ -182,7 +183,29 @@ priv = {
 <h2>6. Deine Rechte</h2>
 <p>Da wir keine Daten über dich speichern, gibt es bei uns normalerweise nichts einzusehen oder zu löschen. Wenn du uns geschrieben hast, kannst du Auskunft über diese E-Mail oder ihre Löschung unter <a href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a> verlangen. Du kannst dich auch bei der spanischen Datenschutzbehörde (<a href="https://www.aepd.es">www.aepd.es</a>) oder deiner örtlichen Aufsichtsbehörde beschweren.</p>
 <h2>7. Änderungen</h2>
-<p>Wenn wir diese Erklärung ändern, veröffentlichen wir die neue Fassung mit Datum auf dieser Seite.</p>'''}
+<p>Wenn wir diese Erklärung ändern, veröffentlichen wir die neue Fassung mit Datum auf dieser Seite.</p>''',
+'pt': '''<h1>Política de privacidade</h1>
+<p class="updated">{u}</p>
+<div class="box"><p>Esta política aplica-se às apps da <strong>MJCStudio</strong> no Google Play e na App Store: <strong>Rondalia</strong> e <strong>Lexpedition</strong>. Em poucas palavras: <strong>não recolhemos dados pessoais</strong>, não mostramos anúncios e não usamos ferramentas de seguimento.</p></div>
+<h2>1. Responsável</h2>
+<p>MJCStudio, programador independente com sede em Espanha. Contacto: <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>.</p>
+<h2>2. Que dados tratamos</h2>
+<ul>
+<li><strong>Nenhum nos nossos servidores.</strong> As apps não têm contas nem registo e não enviam informação à MJCStudio nem a terceiros.</li>
+<li><strong>Dados guardados apenas no teu dispositivo:</strong> os nomes ou alcunhas que escreves para os jogadores ou perfis (e, se o indicares, o ano de nascimento para ajustar a dificuldade), pontuações, progresso, definições (idioma, tema, som) e se desbloqueaste a versão completa. Ficam na memória local da app e nunca saem do telemóvel ou tablet. Podes apagá-los nas definições da app ou desinstalando-a.</li>
+<li><strong>Sem publicidade, sem análise e sem seguimento.</strong> Não usamos cookies, identificadores publicitários nem serviços de estatísticas. O único componente de terceiros é o sistema de compras da loja (Google Play Billing ou StoreKit da Apple).</li>
+<li><strong>Permissões:</strong> as apps não pedem acesso à câmara, ao microfone, à localização, aos contactos nem às fotografias.</li>
+</ul>
+<h2>3. Compras</h2>
+<p>As compras dentro da app (compra única para desbloquear o conteúdo completo) são geridas pelo <strong>Google Play</strong> ou pela <strong>App Store da Apple</strong>. A MJCStudio nunca recebe os teus dados de pagamento; a loja apenas confirma à app que a compra existe para desbloquear o conteúdo. Consulta também a política de privacidade da Google ou da Apple.</p>
+<h2>4. Se nos escreveres</h2>
+<p>Se usares «Escreve-nos» ou «Enviar comentário», abre-se a tua app de e-mail com uma mensagem que pode incluir a versão da app, o idioma e o modelo do dispositivo, para nos ajudar a resolver o problema. Tu decides se a envias. Usamos o teu endereço de e-mail e a tua mensagem apenas para te responder e apagamo-los quando deixam de ser necessários, ou antes, se nos pedires.</p>
+<h2>5. Menores</h2>
+<p>As apps são adequadas para menores. Não recolhemos dados de crianças. As ligações externas (e-mail, página da loja) e as compras estão protegidas por uma pergunta para adultos.</p>
+<h2>6. Os teus direitos</h2>
+<p>Como não guardamos dados teus, normalmente não há nada para consultar nem apagar do nosso lado. Se nos escreveste, podes pedir o acesso a esse e-mail ou a sua eliminação em <a href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a>. Podes também apresentar reclamação à autoridade espanhola de proteção de dados (<a href="https://www.aepd.es">www.aepd.es</a>) ou à Comissão Nacional de Proteção de Dados (<a href="https://www.cnpd.pt">www.cnpd.pt</a>).</p>
+<h2>7. Alterações</h2>
+<p>Se alterarmos esta política, publicaremos a nova versão nesta página com a respetiva data.</p>'''}
 priv = {l: v.replace('{u}', UPDATED[l]) for l, v in priv.items()}
 
 # ---------- SOPORTE ----------
@@ -234,7 +257,19 @@ Lexpedition: <a class="mail" href="mailto:lexpedition@mjcstudio.com">lexpedition
 <p><strong>Ich habe ein neues Handy. Wie bekomme ich meinen Kauf zurück?</strong><br>Öffne die Einstellungen der App und tippe auf „Kauf wiederherstellen“, mit demselben Google- oder Apple-Konto wie beim Kauf.</p>
 <p><strong>Wie ändere ich die Sprache?</strong><br>Unter Einstellungen › Sprache. Beim ersten Start nutzt die App die Sprache deines Handys.</p>
 <p><strong>Wie lösche ich meine Daten?</strong><br>Alles wird nur auf deinem Gerät gespeichert. Du kannst es in den Einstellungen der App oder durch Deinstallieren löschen. Mehr dazu in der <a href="../privacidad/">Datenschutzerklärung</a>.</p>
-<p><strong>Brauche ich Internet?</strong><br>Nicht zum Spielen oder Lernen. Nur zum Kaufen oder Wiederherstellen.</p>'''}
+<p><strong>Brauche ich Internet?</strong><br>Nicht zum Spielen oder Lernen. Nur zum Kaufen oder Wiederherstellen.</p>''',
+'pt': '''<h1>Apoio</h1>
+<p class="lead">Alguma coisa não funciona, tens uma ideia ou encontraste uma pergunta com um erro? Escreve-nos e respondemos o mais depressa possível.</p>
+<div class="box">
+<p>Geral: <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a><br>
+Rondalia: <a class="mail" href="mailto:rondalia@mjcstudio.com">rondalia@mjcstudio.com</a><br>
+Lexpedition: <a class="mail" href="mailto:lexpedition@mjcstudio.com">lexpedition@mjcstudio.com</a></p>
+<p>Se puderes, indica a app, a versão (está em Definições › Acerca de) e o modelo do teu telemóvel.</p></div>
+<h2>Perguntas frequentes</h2>
+<p><strong>Mudei de telemóvel. Como recupero a compra?</strong><br>Abre as Definições da app e toca em «Restaurar compra» com a mesma conta Google ou Apple com que compraste.</p>
+<p><strong>Como mudo o idioma?</strong><br>Em Definições › Idioma. Da primeira vez, a app usa o idioma do teu telemóvel.</p>
+<p><strong>Como apago os meus dados?</strong><br>Tudo fica guardado apenas no teu dispositivo. Podes apagá-lo nas definições da app ou desinstalando-a. Mais detalhes na <a href="../privacidad/">política de privacidade</a>.</p>
+<p><strong>Preciso de internet?</strong><br>Não para jogar ou estudar. Só para comprar ou restaurar a compra.</p>'''}
 
 import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from home_mk import home

@@ -1,4 +1,4 @@
-(function(){var L=['es','en','fr','de'];var h=document.documentElement;
+(function(){var L=['es','en','fr','de','pt'];var h=document.documentElement;
 function pick(){try{var q=new URLSearchParams(location.search).get('lang');if(L.indexOf(q)>=0)return q;var s=localStorage.getItem('mjc-lang');if(L.indexOf(s)>=0)return s}catch(e){}
 var n=((navigator.languages&&navigator.languages[0])||navigator.language||'es').slice(0,2).toLowerCase();if(n==='ca'||n==='gl'||n==='eu')n='es';return L.indexOf(n)>=0?n:'en'}
 function set(l){h.setAttribute('data-lang',l);h.lang=l;try{localStorage.setItem('mjc-lang',l)}catch(e){}
