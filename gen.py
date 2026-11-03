@@ -47,7 +47,7 @@ def page(key, root, body):
 <main><div class="wrap">
 {body}
 </div></main>
-<footer><div class="wrap">{foot} · <a href="{root}privacidad/">{''.join(f'<span data-l="{l}">{MENU["priv"][l]}</span>' for l in LANGS)}</a> · <a href="{root}soporte/">{''.join(f'<span data-l="{l}">{MENU["sup"][l]}</span>' for l in LANGS)}</a> · <a href="https://x.com/MJCStudioApp" rel="noopener" aria-label="MJCStudio en X">𝕏 @MJCStudioApp</a> · <a href="https://x.com/Rondalia" rel="noopener" aria-label="Rondalia en X">𝕏 @Rondalia</a> · <a href="https://www.instagram.com/rondalia.app/" rel="noopener" aria-label="Rondalia en Instagram">📷 rondalia.app</a></div></footer>
+<footer><div class="wrap">{foot} · <a href="{root}privacidad/">{''.join(f'<span data-l="{l}">{MENU["priv"][l]}</span>' for l in LANGS)}</a> · <a href="{root}soporte/">{''.join(f'<span data-l="{l}">{MENU["sup"][l]}</span>' for l in LANGS)}</a> · <a href="https://x.com/MJCStudioApp" rel="noopener" aria-label="MJCStudio en X">𝕏 @MJCStudioApp</a> · <a href="https://www.instagram.com/mjcstudio.app/" rel="noopener" aria-label="MJCStudio en Instagram">📷 mjcstudio.app</a> · <a href="https://x.com/Rondalia" rel="noopener" aria-label="Rondalia en X">𝕏 @Rondalia</a> · <a href="https://www.instagram.com/rondalia.app/" rel="noopener" aria-label="Rondalia en Instagram">📷 rondalia.app</a></div></footer>
 <script src="{root}lang.js"></script>
 </body>
 </html>

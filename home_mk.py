@@ -43,7 +43,7 @@ def block(t, lg):
 <h2>{t['c_h']}</h2>
 <ul>{''.join(f'<li>{x}</li>' for x in t['c'])}</ul>
 <p>{t['mail']} <a class="mail" href="mailto:soporte@mjcstudio.com">soporte@mjcstudio.com</a></p>
-<p>{FOLLOW[lg]['p']} <a href="https://x.com/MJCStudioApp" rel="noopener">𝕏 @MJCStudioApp</a> · <a href="https://x.com/Rondalia" rel="noopener">𝕏 @Rondalia</a> · <a href="https://www.instagram.com/rondalia.app/" rel="noopener">📷 rondalia.app</a></p>
+<p>{FOLLOW[lg]['p']} <a href="https://x.com/MJCStudioApp" rel="noopener">𝕏 @MJCStudioApp</a> · <a href="https://www.instagram.com/mjcstudio.app/" rel="noopener">📷 mjcstudio.app</a> · <a href="https://x.com/Rondalia" rel="noopener">𝕏 @Rondalia</a> · <a href="https://www.instagram.com/rondalia.app/" rel="noopener">📷 rondalia.app</a></p>
 </section>
 
 <section class="idea">
