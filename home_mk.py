@@ -25,6 +25,7 @@ def block(t, lg):
 <h3>{t['r_gh']}</h3>
 {chips(t['r_g'])}
 <p class="note">{t['r_n']}</p>
+<p class="note">🎡 {ORIGIN[lg]}</p>
 <p class="note">{FOLLOW[lg]['r']} <a href="https://x.com/Rondalia" rel="noopener">𝕏 @Rondalia</a> · <a href="https://www.instagram.com/rondalia.app/" rel="noopener">📷 rondalia.app</a></p>
 {beta('rondalia', 'rondalia@mjcstudio.com', 'r')}
 </section>
@@ -52,6 +53,14 @@ def block(t, lg):
 <div class="cta"><a class="btn ghost" href="mailto:soporte@mjcstudio.com?subject={IDEA[lg]['s']}">{IDEA[lg]['b']}</a></div>
 </section>'''
 
+
+ORIGIN = {
+ 'es': '<strong>¿Por qué «Rondalia»?</strong> Viene de «ronda»: jugar por turnos, en corro. Y la «o» del logo es una <em>rota</em>, una rueda de juego que los antiguos romanos grababan en las escaleras de foros y templos para jugar en grupo. Casi dos mil años después, la idea sigue siendo la misma: un tablero, varios jugadores y cada uno en su turno.',
+ 'en': '<strong>Why “Rondalia”?</strong> It comes from the Spanish “ronda”, a round: playing in turns, sitting in a circle. And the “o” in the logo is a <em>rota</em>, a game wheel the ancient Romans carved into the steps of forums and temples to play together. Nearly two thousand years later, the idea is the same: one board, several players, everyone taking turns.',
+ 'fr': '<strong>Pourquoi « Rondalia » ?</strong> Le nom vient de l’espagnol « ronda », la ronde : jouer chacun son tour, en cercle. Et le « o » du logo est une <em>rota</em>, une roue de jeu que les Romains gravaient sur les marches des forums et des temples pour jouer ensemble. Près de deux mille ans plus tard, l’idée reste la même : un plateau, plusieurs joueurs, chacun son tour.',
+ 'de': '<strong>Warum „Rondalia“?</strong> Der Name kommt vom spanischen „ronda“, der Runde: reihum spielen, im Kreis. Und das „o“ im Logo ist eine <em>Rota</em>, ein Spielrad, das die alten Römer in die Stufen von Foren und Tempeln ritzten, um gemeinsam zu spielen. Fast zweitausend Jahre später ist die Idee dieselbe: ein Spielbrett, mehrere Spieler, alle reihum.',
+ 'pt': '<strong>Porquê «Rondalia»?</strong> Vem de «ronda», a roda: jogar à vez, em círculo. E o «o» do logótipo é uma <em>rota</em>, uma roda de jogo que os antigos romanos gravavam nos degraus dos fóruns e templos para jogar em conjunto. Quase dois mil anos depois, a ideia é a mesma: um tabuleiro, vários jogadores e cada um na sua vez.',
+}
 
 FOLLOW = {
  'es': dict(p='Síguenos en X e Instagram para conocer las novedades:', r='Novedades, juegos nuevos y sets de temporada en'),
