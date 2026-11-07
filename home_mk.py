@@ -10,6 +10,11 @@ def block(t, lg):
                 f'<div class="cta"><a class="btn {cls}" href="https://play.google.com/store/apps/details?id=com.mjcstudio.{app}" rel="noopener">{b["and"]}</a>'
                 f'<a class="btn ghost" href="https://play.google.com/apps/testing/com.mjcstudio.{app}" rel="noopener">{b["web"]}</a></div>'
                 f'<p class="small">{b["n"]}</p></div>')
+    def store(aid, cls):
+        b = STORE[lg]
+        cc = {'es': 'es', 'en': 'us', 'fr': 'fr', 'de': 'de', 'pt': 'pt'}[lg]
+        return (f'<div class="store"><h3>📱 {b["h"]}</h3><p>{b["p"]}</p>'
+                f'<div class="cta"><a class="btn {cls}" href="https://apps.apple.com/{cc}/app/id{aid}" rel="noopener">{b["b"]}</a></div></div>')
     chips = lambda items: '<div class="chips">' + ''.join(f'<span>{c}</span>' for c in items) + '</div>'
     return f'''<section class="hero">
 <h1>{t['h1']}</h1>
@@ -27,6 +32,7 @@ def block(t, lg):
 <p class="note">{t['r_n']}</p>
 <p class="note">🎡 {ORIGIN[lg]}</p>
 <p class="note">{FOLLOW[lg]['r']} <a href="https://x.com/Rondalia" rel="noopener">𝕏 @Rondalia</a> · <a href="https://www.instagram.com/rondalia.app/" rel="noopener">📷 rondalia.app</a></p>
+{store('6829351479', 'r')}
 {beta('rondalia', 'rondalia@mjcstudio.com', 'r')}
 </section>
 
@@ -37,6 +43,7 @@ def block(t, lg):
 {feats(t['l_f'])}
 {shots('lex-carta', 'lex-progreso', t['l_a1'], t['l_a2'])}
 <p class="note">{t['l_n']}</p>
+{store('6829351766', 'l')}
 {beta('lexpedition', 'lexpedition@mjcstudio.com', 'l')}
 </section>
 
@@ -76,6 +83,14 @@ IDEA = {
  'fr': dict(h='Propose une appli', p="Il te manque une appli pour apprendre ou jouer ? Raconte-nous ton idée : nous lisons toutes les propositions.", b='Envoyer mon idée', s='Id%C3%A9e%20d%27appli'),
  'de': dict(h='App vorschlagen', p='Fehlt dir eine App zum Lernen oder Spielen? Erzähl uns deine Idee – wir lesen jeden Vorschlag.', b='Idee senden', s='App-Idee'),
  'pt': dict(h='Sugere uma app', p='Falta-te alguma app para aprender ou jogar? Conta-nos a tua ideia: lemos todas as sugestões.', b='Enviar a minha ideia', s='Ideia%20para%20uma%20app'),
+}
+
+STORE = {
+ 'es': dict(h='Descárgala en iPhone y iPad', p='Ya está en la App Store: gratis y completa, sin anuncios.', b='Descargar en la App Store'),
+ 'en': dict(h='Get it on iPhone and iPad', p='Now on the App Store: free and complete, with no ads.', b='Download on the App Store'),
+ 'fr': dict(h='Télécharge-la sur iPhone et iPad', p="Disponible sur l'App Store : gratuite et complète, sans pub.", b="Télécharger sur l'App Store"),
+ 'de': dict(h='Lade sie auf iPhone und iPad', p='Jetzt im App Store: kostenlos und komplett, ohne Werbung.', b='Im App Store laden'),
+ 'pt': dict(h='Descarrega-a no iPhone e iPad', p='Já está na App Store: grátis e completa, sem anúncios.', b='Descarregar na App Store'),
 }
 
 BETA = {
