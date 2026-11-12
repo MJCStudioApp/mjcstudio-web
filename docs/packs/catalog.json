@@ -24,57 +24,5 @@
    "pt": "Andaluzia"
   }
  },
- "packs": [
-  {
-   "id": "andalucia",
-   "ver": 1,
-   "ico": "💃",
-   "theme": "lugares",
-   "place": [
-    "eu",
-    "es",
-    "es-an"
-   ],
-   "langs": [
-    "es"
-   ],
-   "free": true,
-   "n": {
-    "trivia": 24,
-    "tabu": 10,
-    "mimica": 8
-   },
-   "kb": 6,
-   "name": {
-    "es": "Andalucía",
-    "en": "Andalusia",
-    "fr": "Andalousie",
-    "de": "Andalusien",
-    "pt": "Andaluzia"
-   },
-   "desc": {
-    "es": "De la Alhambra a Doñana: geografía, historia, arte, naturaleza y sabores de Andalucía.",
-    "en": "From the Alhambra to Doñana: the geography, history, art, nature and flavours of Andalusia. In Spanish.",
-    "fr": "De l'Alhambra à Doñana : géographie, histoire, art, nature et saveurs de l'Andalousie. En espagnol.",
-    "de": "Von der Alhambra bis Doñana: Geografie, Geschichte, Kunst, Natur und Küche Andalusiens. Auf Spanisch.",
-    "pt": "Da Alhambra a Doñana: geografia, história, arte, natureza e sabores da Andaluzia. Em espanhol."
-   },
-   "skin": {
-    "light": {
-     "--accent": "#B3261E",
-     "--bg": "#FBF6EC",
-     "--soft": "#F3E7D3",
-     "--track": "#EFE0C8"
-    },
-    "dark": {
-     "--accent": "#FF8A5B",
-     "--bg": "#1F1712",
-     "--surface": "#2B211A",
-     "--soft": "#3A2C22",
-     "--line": "#4A392C",
-     "--track": "#3A2C22"
-    }
-   }
-  }
- ]
+ "packs": []
 }
