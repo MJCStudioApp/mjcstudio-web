@@ -115,6 +115,7 @@ T['es'] = dict(
       ('🎲', 'Más de 15 juegos, un solo marcador', 'Desde preguntas y mímica hasta el abecedario, banderas o palabra prohibida. Cambiad de juego cuando queráis o dejad que «La rueda elige» decida en cada turno: el marcador suma los puntos de todos. ¿No sabéis a qué jugar? «Ayúdame a elegir» os propone juegos con tres preguntas rápidas.'),
       ('🤝', 'Nuevo: todos juntos', '¿Con niños pequeños o sin ganas de competir? Elegid «Todos juntos»: un solo equipo, sin nombres, con el nivel de edad que queráis. Responded entre todos y superad el reto: 20 aciertos antes de 5 fallos.'),
       ('👥', 'Todos los que seáis', 'Guarda hasta 50 jugadores y jugad todos a la vez, sin límite por juego. En las partidas grandes, El despistado tiene varios despistados que se descubren ronda a ronda.'),
+      ('✈️', 'Sin internet', 'En el coche, en el avión, en la playa o en el pueblo sin cobertura: Rondalia no necesita conexión ni gasta datos. Todo va dentro de la app.'),
       ('📺', 'También en la tele', 'Duplica la pantalla del móvil o la tableta en la tele y jugad todos viéndola en grande.'),
       ('⚔️', 'Duelo para dos', '¿Sois dos? En Palabrea, Cálculo, Adivina el número y Llega al número jugáis a la vez con la pantalla dividida, cada uno con el reto de su nivel. Gana quien lo resuelva antes.'),
       ('📚', 'Más de 6.000 retos', 'Más de 2.000 preguntas por idioma, cientos de palabras, mímicas y categorías, y todo el contenido revisado para que sea apto para niños. En Ajustes ves cuánto contenido tiene cada juego.'),
@@ -134,11 +135,12 @@ T['es'] = dict(
       ('🗺️', 'Una carta de navegación', 'Elige tu rumbo entre islas misteriosas, despeja la niebla y planta tu bandera. Asciende de Grumete a Almirante.'),
       ('🧠', 'Repaso inteligente', 'Tarjetas, elegir la partícula, completar huecos y unir parejas, con repetición espaciada para que no se olvide lo aprendido.'),
       ('🔥', 'Motivación diaria', 'Test diario con nota, racha, meta de XP, misiones e insignias. Ideal para crear el hábito.'),
+      ('✈️', 'Sin conexión', 'En el metro, en el avión o donde no haya cobertura: Lexpedition funciona sin internet y sin gastar datos. Todo el vocabulario va dentro de la app.'),
       ('🗣️', 'En tu idioma', 'La app habla español, inglés, francés o alemán, y los significados pueden salir traducidos a tu idioma o como definición.')],
  l_a1='Carta de navegación de Lexpedition', l_a2='Progreso, rango y récords en Lexpedition',
  l_n='Para cualquier edad: desde niños que preparan su primer certificado hasta adultos. Funciona en móvil y tableta, con varios perfiles en el mismo dispositivo. Edición de lanzamiento: ahora gratis y completa, con los cuatro idiomas y todos los niveles. Descárgala ahora y tenla completa para siempre.',
  c_h='Nuestro compromiso',
- c=['Sin anuncios, nunca.', 'Sin cuentas ni registro.', 'Para móvil y tableta: Android, iPhone y iPad.', 'No recogemos datos personales: todo se guarda en tu dispositivo.', 'Aptas para menores: compras y enlaces protegidos con una pregunta para adultos.', 'Compra única opcional, sin suscripciones.'],
+ c=['Sin anuncios, nunca.', 'Sin cuentas ni registro.', 'Funcionan sin conexión: sin datos móviles ni cobertura.', 'Para móvil y tableta: Android, iPhone y iPad.', 'No recogemos datos personales: todo se guarda en tu dispositivo.', 'Aptas para menores: compras y enlaces protegidos con una pregunta para adultos.', 'Compra única opcional, sin suscripciones.'],
  mail='¿Dudas o ideas? Escríbenos a')
 T['en'] = dict(
  h1='Apps to learn and play',
@@ -150,6 +152,7 @@ T['en'] = dict(
       ('🎲', 'More than 15 games, one scoreboard', 'From quiz and charades to the alphabet wheel, flags or forbidden words. Switch games whenever you like or let “Spin the wheel” decide each turn: the scoreboard adds up the points from all of them. Not sure what to play? “Help me choose” asks three quick questions and suggests games.'),
       ('🤝', 'New: all together', 'Playing with young kids, or just not in the mood to compete? Choose “All together”: one team, no names, at the age level you pick. Answer together and beat the challenge: 20 correct answers before 5 misses.'),
       ('👥', 'Everyone can play', 'Save up to 50 players and play all together, with no limit per game. In big games, The Clueless One has several clueless ones, found round by round.'),
+      ('✈️', 'No internet needed', 'In the car, on a plane, at the beach or anywhere without signal: Rondalia needs no connection and uses no data. Everything is built into the app.'),
       ('📺', 'On the TV too', 'Mirror your phone or tablet screen to the TV and everyone plays on the big screen.'),
       ('⚔️', 'A duel for two', 'Just the two of you? In Wordsmithing, Mental Math, Guess the Number and Reach the Number you play at the same time on a split screen, each with a challenge at your own level. Whoever solves it first wins.'),
       ('📚', 'More than 6,000 challenges', 'Over 2,000 questions per language, hundreds of words, charades and categories, all checked to be child-friendly. Settings shows how much content each game has.'),
@@ -169,11 +172,12 @@ T['en'] = dict(
       ('🗺️', 'A sea chart', 'Choose your course among mystery islands, clear the fog and plant your flag. Rise from Deckhand to Admiral.'),
       ('🧠', 'Smart review', 'Flashcards, pick the particle, fill the gaps and match pairs, with spaced repetition so you don\'t forget.'),
       ('🔥', 'Daily motivation', 'Daily test with a score, streaks, XP goal, missions and badges. Perfect to build the habit.'),
+      ('✈️', 'Study offline', 'On the train, on a plane or anywhere without signal: Lexpedition works without internet and uses no data. All the vocabulary is built into the app.'),
       ('🗣️', 'In your language', 'The app speaks English, Spanish, French or German, and meanings can be shown as translations or definitions.')],
  l_a1='Lexpedition sea chart', l_a2='Progress, rank and records in Lexpedition',
  l_n='For every age: from children preparing their first certificate to adults. Works on phones and tablets, with several profiles on the same device. Launch edition: free and complete right now, with all four languages and every level. Download it now and keep the full version forever.',
  c_h='Our promise',
- c=['No ads, ever.', 'No accounts or sign-up.', 'For phones and tablets: Android, iPhone and iPad.', "We don't collect personal data: everything stays on your device.", 'Child-friendly: purchases and links are protected by a question for adults.', 'Optional one-time purchase, no subscriptions.'],
+ c=['No ads, ever.', 'No accounts or sign-up.', 'They work offline: no mobile data or signal needed.', 'For phones and tablets: Android, iPhone and iPad.', "We don't collect personal data: everything stays on your device.", 'Child-friendly: purchases and links are protected by a question for adults.', 'Optional one-time purchase, no subscriptions.'],
  mail='Questions or ideas? Write to')
 T['fr'] = dict(
  h1='Des applis pour apprendre et jouer',
@@ -185,6 +189,7 @@ T['fr'] = dict(
       ('🎲', 'Plus de 15 jeux, un seul score', 'Du quiz et du mime à la roue de l\'alphabet, aux drapeaux ou aux mots interdits. Changez de jeu quand vous voulez ou laissez « La roue décide » choisir à chaque tour : le tableau des scores additionne tous les points. Vous ne savez pas à quoi jouer ? « Aide-moi à choisir » pose trois questions rapides et vous propose des jeux.'),
       ('🤝', 'Nouveau : tous ensemble', 'Avec de jeunes enfants ou sans envie de compétition ? Choisissez « Tous ensemble » : une seule équipe, sans prénoms, au niveau d\'âge de votre choix. Répondez ensemble et relevez le défi : 20 bonnes réponses avant 5 erreurs.'),
       ('👥', 'Autant de joueurs que vous voulez', 'Enregistre jusqu\'à 50 joueurs et jouez tous ensemble, sans limite par jeu. Dans les grandes parties, Le Distrait compte plusieurs distraits, démasqués manche après manche.'),
+      ('✈️', 'Sans internet', 'En voiture, en avion, à la plage ou à la campagne sans réseau : Rondalia fonctionne sans connexion et sans consommer de données. Tout est déjà dans l\'appli.'),
       ('📺', 'Aussi sur la télé', 'Duplique l\'écran du téléphone ou de la tablette sur la télé et jouez tous en grand.'),
       ('⚔️', 'Un duel à deux', 'Vous êtes deux ? Dans Motine, Calcul mental, Devine le nombre et Atteins le nombre, jouez en même temps sur écran partagé, chacun avec un défi à son niveau. Le premier qui trouve gagne.'),
       ('📚', 'Plus de 6 000 défis', 'Plus de 2 000 questions par langue, des centaines de mots, de mimes et de catégories, tout vérifié pour convenir aux enfants. Les Réglages montrent le contenu de chaque jeu.'),
@@ -204,11 +209,12 @@ T['fr'] = dict(
       ('🗺️', 'Une carte marine', 'Choisis ton cap parmi des îles mystérieuses, dissipe le brouillard et plante ton drapeau. Grimpe de Mousse à Amiral.'),
       ('🧠', 'Révision intelligente', 'Cartes, choix de la particule, textes à trous et paires, avec répétition espacée pour ne pas oublier.'),
       ('🔥', 'Motivation quotidienne', 'Test du jour noté, série, objectif d\'XP, missions et badges. Idéal pour prendre l\'habitude.'),
+      ('✈️', 'Hors connexion', 'Dans le métro, en avion ou sans réseau : Lexpedition fonctionne sans internet et ne consomme pas de données. Tout le vocabulaire est déjà dans l\'appli.'),
       ('🗣️', 'Dans ta langue', 'L\'appli parle français, espagnol, anglais ou allemand, et les sens s\'affichent en traduction ou en définition.')],
  l_a1='Carte marine de Lexpedition', l_a2='Progrès, grade et records dans Lexpedition',
  l_n="Pour tous les âges : des enfants qui préparent leur premier diplôme aux adultes. Fonctionne sur téléphone et tablette, avec plusieurs profils sur le même appareil. Édition de lancement : gratuite et complète en ce moment, avec les quatre langues et tous les niveaux. Télécharge-la maintenant et garde la version complète pour toujours.",
  c_h='Notre engagement',
- c=['Pas de publicité, jamais.', 'Pas de compte ni d\'inscription.', 'Pour téléphone et tablette : Android, iPhone et iPad.', 'Aucune donnée personnelle collectée : tout reste sur ton appareil.', 'Adapté aux enfants : achats et liens protégés par une question pour adultes.', 'Achat unique facultatif, sans abonnement.'],
+ c=['Pas de publicité, jamais.', 'Pas de compte ni d\'inscription.', 'Elles fonctionnent hors connexion : ni données mobiles ni réseau.', 'Pour téléphone et tablette : Android, iPhone et iPad.', 'Aucune donnée personnelle collectée : tout reste sur ton appareil.', 'Adapté aux enfants : achats et liens protégés par une question pour adultes.', 'Achat unique facultatif, sans abonnement.'],
  mail='Une question, une idée ? Écris-nous à')
 T['de'] = dict(
  h1='Apps zum Lernen und Spielen',
@@ -220,6 +226,7 @@ T['de'] = dict(
       ('🎲', 'Über 15 Spiele, eine Punktetabelle', 'Von Quiz und Pantomime bis Buchstabenrad, Flaggen oder verbotene Wörter. Wechselt das Spiel, wann ihr wollt, oder lasst „Das Rad entscheidet“ in jeder Runde wählen: Die Punktetabelle zählt alles zusammen. Ihr wisst nicht, was ihr spielen sollt? „Hilf mir wählen“ stellt drei kurze Fragen und schlägt Spiele vor.'),
       ('🤝', 'Neu: alle zusammen', 'Mit kleinen Kindern oder einfach ohne Lust auf Wettkampf? Wählt „Alle zusammen“: ein Team, ohne Namen, auf der Altersstufe, die ihr wollt. Antwortet gemeinsam und schafft die Herausforderung: 20 richtige Antworten vor 5 Fehlern.'),
       ('👥', 'Alle spielen mit', 'Speichere bis zu 50 Spieler und spielt alle zusammen, ohne Begrenzung pro Spiel. In großen Runden gibt es bei Der Ahnungslose mehrere Ahnungslose, die Runde für Runde entlarvt werden.'),
+      ('✈️', 'Ohne Internet', 'Im Auto, im Flugzeug, am Strand oder im Funkloch: Rondalia braucht keine Verbindung und kein Datenvolumen. Alles steckt schon in der App.'),
       ('📺', 'Auch auf dem Fernseher', 'Spiegle den Bildschirm von Handy oder Tablet auf den Fernseher und alle spielen auf dem großen Bildschirm.'),
       ('⚔️', 'Duell zu zweit', 'Nur ihr zwei? In Wörteln, Kopfrechnen, Zahlenraten und Triff die Zahl spielt ihr gleichzeitig auf geteiltem Bildschirm, jeder mit einer Aufgabe auf seinem Niveau. Wer sie zuerst löst, gewinnt.'),
       ('📚', 'Über 6.000 Aufgaben', 'Über 2.000 Fragen pro Sprache, Hunderte Wörter, Pantomimen und Kategorien – alles kindgerecht geprüft. In den Einstellungen siehst du, wie viel Inhalt jedes Spiel hat.'),
@@ -239,11 +246,12 @@ T['de'] = dict(
       ('🗺️', 'Eine Seekarte', 'Wähle deinen Kurs zwischen geheimnisvollen Inseln, vertreibe den Nebel und hisse deine Flagge. Steige vom Schiffsjungen zum Admiral auf.'),
       ('🧠', 'Kluges Wiederholen', 'Karteikarten, Partikel wählen, Lücken füllen und Paare bilden – mit verteilter Wiederholung, damit nichts vergessen wird.'),
       ('🔥', 'Tägliche Motivation', 'Tagestest mit Note, Serie, XP-Ziel, Missionen und Abzeichen. Ideal, um dranzubleiben.'),
+      ('✈️', 'Offline lernen', 'In der U-Bahn, im Flugzeug oder im Funkloch: Lexpedition funktioniert ohne Internet und verbraucht kein Datenvolumen. Der ganze Wortschatz steckt schon in der App.'),
       ('🗣️', 'In deiner Sprache', 'Die App spricht Deutsch, Spanisch, Englisch oder Französisch, und Bedeutungen erscheinen als Übersetzung oder Definition.')],
  l_a1='Seekarte in Lexpedition', l_a2='Fortschritt, Rang und Rekorde in Lexpedition',
  l_n='Für jedes Alter: von Kindern vor ihrem ersten Zertifikat bis zu Erwachsenen. Läuft auf Handy und Tablet, mit mehreren Profilen auf einem Gerät. Launch-Edition: aktuell kostenlos und komplett, mit allen vier Sprachen und allen Niveaus. Jetzt herunterladen und die Vollversion für immer behalten.',
  c_h='Unser Versprechen',
- c=['Keine Werbung, niemals.', 'Für Handy und Tablet: Android, iPhone und iPad.', 'Kein Konto, keine Anmeldung.', 'Wir sammeln keine personenbezogenen Daten: Alles bleibt auf deinem Gerät.', 'Kindgerecht: Käufe und Links sind durch eine Frage für Erwachsene geschützt.', 'Optionaler Einmalkauf, kein Abo.'],
+ c=['Keine Werbung, niemals.', 'Für Handy und Tablet: Android, iPhone und iPad.', 'Kein Konto, keine Anmeldung.', 'Funktionieren offline: ohne mobile Daten und ohne Netz.', 'Wir sammeln keine personenbezogenen Daten: Alles bleibt auf deinem Gerät.', 'Kindgerecht: Käufe und Links sind durch eine Frage für Erwachsene geschützt.', 'Optionaler Einmalkauf, kein Abo.'],
  mail='Fragen oder Ideen? Schreib uns an')
 
 T['pt'] = dict(
@@ -256,6 +264,7 @@ T['pt'] = dict(
       ('🎲', 'Mais de 15 jogos, uma só pontuação', 'Das perguntas e da mímica ao abecedário, às bandeiras ou à palavra proibida. Mudem de jogo quando quiserem ou deixem que «A roda escolhe» decida em cada vez: a pontuação soma os pontos de todos. Não sabem a que jogar? «Ajuda-me a escolher» faz três perguntas rápidas e propõe jogos.'),
       ('🤝', 'Novo: todos juntos', 'Com crianças pequenas ou sem vontade de competir? Escolham «Todos juntos»: uma só equipa, sem nomes, no nível de idade que quiserem. Respondam juntos e superem o desafio: 20 respostas certas antes de 5 falhas.'),
       ('👥', 'Todos os que forem', 'Guarda até 50 jogadores e joguem todos juntos, sem limite por jogo. Nas partidas grandes, O distraído tem vários distraídos, que se descobrem ronda a ronda.'),
+      ('✈️', 'Sem internet', 'No carro, no avião, na praia ou na aldeia sem rede: a Rondalia não precisa de ligação nem gasta dados. Está tudo dentro da app.'),
       ('📺', 'Também na televisão', 'Espelha o ecrã do telemóvel ou do tablet na televisão e joguem todos em grande.'),
       ('⚔️', 'Duelo a dois', 'São dois? Na Palavreia, no Cálculo, no Adivinha o número e no Chega ao número jogam ao mesmo tempo com o ecrã dividido, cada um com o desafio do seu nível. Ganha quem resolver primeiro.'),
       ('📚', 'Mais de 6000 desafios', 'Mais de 2000 perguntas por idioma, adaptadas a Portugal, centenas de palavras, mímicas e categorias, e todo o conteúdo revisto para ser adequado a crianças. Nas Definições vês quanto conteúdo tem cada jogo.'),
@@ -275,11 +284,12 @@ T['pt'] = dict(
       ('🗺️', 'Uma carta de navegação', 'Escolhe o teu rumo entre ilhas misteriosas, dissipa o nevoeiro e planta a tua bandeira. Sobe de Grumete a Almirante.'),
       ('🧠', 'Revisão inteligente', 'Cartões, escolher a partícula, completar espaços e juntar pares, com repetição espaçada para não esqueceres o que aprendeste.'),
       ('🔥', 'Motivação diária', 'Teste diário com nota, sequência, meta de XP, missões e medalhas. Ideal para criar o hábito.'),
+      ('✈️', 'Sem ligação', 'No metro, no avião ou onde não haja rede: a Lexpedition funciona sem internet e sem gastar dados. Todo o vocabulário está dentro da app.'),
       ('🗣️', 'Na tua língua', 'A app está em espanhol, inglês, francês ou alemão, e os significados podem aparecer traduzidos ou como definição.')],
  l_a1='Carta de navegação da Lexpedition', l_a2='Progresso, posto e recordes na Lexpedition',
  l_n='Para qualquer idade: de crianças que preparam o primeiro certificado a adultos. Funciona no telemóvel e no tablet, com vários perfis no mesmo dispositivo. Edição de lançamento: agora grátis e completa, com as quatro línguas e todos os níveis. Descarrega-a já e fica com ela completa para sempre.',
  c_h='O nosso compromisso',
- c=['Sem anúncios, nunca.', 'Sem contas nem registo.', 'Para telemóvel e tablet: Android, iPhone e iPad.', 'Não recolhemos dados pessoais: tudo fica guardado no teu dispositivo.', 'Adequadas a menores: compras e ligações protegidas com uma pergunta para adultos.', 'Compra única opcional, sem subscrições.'],
+ c=['Sem anúncios, nunca.', 'Sem contas nem registo.', 'Funcionam sem ligação: sem dados móveis nem rede.', 'Para telemóvel e tablet: Android, iPhone e iPad.', 'Não recolhemos dados pessoais: tudo fica guardado no teu dispositivo.', 'Adequadas a menores: compras e ligações protegidas com uma pergunta para adultos.', 'Compra única opcional, sem subscrições.'],
  mail='Dúvidas ou ideias? Escreve-nos para')
 
 home = {l: block(T[l], l) for l in T}
