@@ -1,5 +1,8 @@
 # Textos de marketing de la portada (es, en, fr, de)
 
+# Logo de Rondalia (sin fondo, con la rota en el centro): sustituye al emoji 🎡 de la nota del nombre
+ROTA = '<svg class="rota-ico" viewBox="0 0 512 512" width="22" height="22" aria-hidden="true" focusable="false"><circle cx="256" cy="106" r="52" fill="#3B63F5"/><circle cx="385.9" cy="181" r="52" fill="#0FA595"/><circle cx="385.9" cy="331" r="52" fill="#F2A516"/><circle cx="256" cy="406" r="52" fill="#F2692E"/><circle cx="126.1" cy="331" r="52" fill="#F0437E"/><circle cx="126.1" cy="181" r="52" fill="#7351F0"/><circle cx="256" cy="256" r="74" fill="#EFE6D2"/><circle cx="256" cy="256" r="63.6" fill="none" stroke="#A4471F" stroke-width="9.2"/><circle cx="256" cy="256" r="50.3" fill="none" stroke="#A4471F" stroke-width="3.3"/><g stroke="#A4471F" stroke-width="6.6" stroke-linecap="round"><line x1="315.2" y1="256" x2="196.8" y2="256"/><line x1="297.9" y1="297.9" x2="214.1" y2="214.1"/><line x1="256" y1="315.2" x2="256" y2="196.8"/><line x1="214.1" y1="297.9" x2="297.9" y2="214.1"/></g><circle cx="256" cy="256" r="14.8" fill="#EFE6D2" stroke="#A4471F" stroke-width="7.9"/></svg>'
+
 def block(t, lg):
     shots = lambda a, b, alt1, alt2: (f'<div class="shots"><img src="img/{a}-{lg}.jpg" alt="{alt1}" loading="lazy" width="270" height="436">'
                                       f'<img src="img/{b}-{lg}.jpg" alt="{alt2}" loading="lazy" width="270" height="436"></div>')
@@ -30,7 +33,7 @@ def block(t, lg):
 <h3>{t['r_gh']}</h3>
 {chips(t['r_g'])}
 <p class="note">{t['r_n']}</p>
-<p class="note">🎡 {ORIGIN[lg]}</p>
+<p class="note">{ROTA} {ORIGIN[lg]}</p>
 <p class="note">{FOLLOW[lg]['r']} <a href="https://x.com/Rondalia" rel="noopener">𝕏 @Rondalia</a> · <a href="https://www.instagram.com/rondalia.app/" rel="noopener">📷 rondalia.app</a></p>
 {store('6829351479', 'r')}
 {beta('rondalia', 'rondalia@mjcstudio.com', 'r')}
