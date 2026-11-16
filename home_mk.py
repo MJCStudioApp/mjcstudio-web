@@ -140,8 +140,8 @@ T['es'] = dict(
       ('🗣️', 'En tu idioma', 'La app habla español, inglés, francés o alemán, y los significados pueden salir traducidos a tu idioma o como definición.')],
  l_a1='Carta de navegación de Lexpedition', l_a2='Progreso, rango y récords en Lexpedition',
  l_n='Para cualquier edad: desde niños que preparan su primer certificado hasta adultos. Funciona en móvil y tableta, con varios perfiles en el mismo dispositivo. Edición de lanzamiento: ahora gratis y completa, con los cuatro idiomas y todos los niveles. Descárgala ahora y tenla completa para siempre.',
- c_h='Nuestro compromiso',
- c=['Sin anuncios, nunca.', 'Sin cuentas ni registro.', 'Funcionan sin conexión: sin datos móviles ni cobertura.', 'Para móvil y tableta: Android, iPhone y iPad.', 'No recogemos datos personales: todo se guarda en tu dispositivo.', 'Aptas para menores: compras y enlaces protegidos con una pregunta para adultos.', 'Compra única opcional, sin suscripciones.'],
+ c_h='Características',
+ c=['Sin anuncios.', 'Sin cuentas ni registro.', 'Funcionan sin conexión: sin datos móviles ni cobertura.', 'Para móvil y tableta: Android, iPhone y iPad.', 'No recogemos datos personales: todo se guarda en tu dispositivo.', 'Aptas para menores: compras y enlaces protegidos con una pregunta para adultos.', 'Compra única opcional, sin suscripciones.'],
  mail='¿Dudas o ideas? Escríbenos a')
 T['en'] = dict(
  h1='Apps to learn and play',
@@ -178,8 +178,8 @@ T['en'] = dict(
       ('🗣️', 'In your language', 'The app speaks English, Spanish, French or German, and meanings can be shown as translations or definitions.')],
  l_a1='Lexpedition sea chart', l_a2='Progress, rank and records in Lexpedition',
  l_n='For every age: from children preparing their first certificate to adults. Works on phones and tablets, with several profiles on the same device. Launch edition: free and complete right now, with all four languages and every level. Download it now and keep the full version forever.',
- c_h='Our promise',
- c=['No ads, ever.', 'No accounts or sign-up.', 'They work offline: no mobile data or signal needed.', 'For phones and tablets: Android, iPhone and iPad.', "We don't collect personal data: everything stays on your device.", 'Child-friendly: purchases and links are protected by a question for adults.', 'Optional one-time purchase, no subscriptions.'],
+ c_h='Features',
+ c=['No ads.', 'No accounts or sign-up.', 'They work offline: no mobile data or signal needed.', 'For phones and tablets: Android, iPhone and iPad.', "We don't collect personal data: everything stays on your device.", 'Child-friendly: purchases and links are protected by a question for adults.', 'Optional one-time purchase, no subscriptions.'],
  mail='Questions or ideas? Write to')
 T['fr'] = dict(
  h1='Des applis pour apprendre et jouer',
@@ -216,8 +216,8 @@ T['fr'] = dict(
       ('🗣️', 'Dans ta langue', 'L\'appli parle français, espagnol, anglais ou allemand, et les sens s\'affichent en traduction ou en définition.')],
  l_a1='Carte marine de Lexpedition', l_a2='Progrès, grade et records dans Lexpedition',
  l_n="Pour tous les âges : des enfants qui préparent leur premier diplôme aux adultes. Fonctionne sur téléphone et tablette, avec plusieurs profils sur le même appareil. Édition de lancement : gratuite et complète en ce moment, avec les quatre langues et tous les niveaux. Télécharge-la maintenant et garde la version complète pour toujours.",
- c_h='Notre engagement',
- c=['Pas de publicité, jamais.', 'Pas de compte ni d\'inscription.', 'Elles fonctionnent hors connexion : ni données mobiles ni réseau.', 'Pour téléphone et tablette : Android, iPhone et iPad.', 'Aucune donnée personnelle collectée : tout reste sur ton appareil.', 'Adapté aux enfants : achats et liens protégés par une question pour adultes.', 'Achat unique facultatif, sans abonnement.'],
+ c_h='Caractéristiques',
+ c=['Pas de publicité.', 'Pas de compte ni d\'inscription.', 'Elles fonctionnent hors connexion : ni données mobiles ni réseau.', 'Pour téléphone et tablette : Android, iPhone et iPad.', 'Aucune donnée personnelle collectée : tout reste sur ton appareil.', 'Adapté aux enfants : achats et liens protégés par une question pour adultes.', 'Achat unique facultatif, sans abonnement.'],
  mail='Une question, une idée ? Écris-nous à')
 T['de'] = dict(
  h1='Apps zum Lernen und Spielen',
@@ -254,8 +254,8 @@ T['de'] = dict(
       ('🗣️', 'In deiner Sprache', 'Die App spricht Deutsch, Spanisch, Englisch oder Französisch, und Bedeutungen erscheinen als Übersetzung oder Definition.')],
  l_a1='Seekarte in Lexpedition', l_a2='Fortschritt, Rang und Rekorde in Lexpedition',
  l_n='Für jedes Alter: von Kindern vor ihrem ersten Zertifikat bis zu Erwachsenen. Läuft auf Handy und Tablet, mit mehreren Profilen auf einem Gerät. Launch-Edition: aktuell kostenlos und komplett, mit allen vier Sprachen und allen Niveaus. Jetzt herunterladen und die Vollversion für immer behalten.',
- c_h='Unser Versprechen',
- c=['Keine Werbung, niemals.', 'Für Handy und Tablet: Android, iPhone und iPad.', 'Kein Konto, keine Anmeldung.', 'Funktionieren offline: ohne mobile Daten und ohne Netz.', 'Wir sammeln keine personenbezogenen Daten: Alles bleibt auf deinem Gerät.', 'Kindgerecht: Käufe und Links sind durch eine Frage für Erwachsene geschützt.', 'Optionaler Einmalkauf, kein Abo.'],
+ c_h='Funktionen',
+ c=['Keine Werbung.', 'Für Handy und Tablet: Android, iPhone und iPad.', 'Kein Konto, keine Anmeldung.', 'Funktionieren offline: ohne mobile Daten und ohne Netz.', 'Wir sammeln keine personenbezogenen Daten: Alles bleibt auf deinem Gerät.', 'Kindgerecht: Käufe und Links sind durch eine Frage für Erwachsene geschützt.', 'Optionaler Einmalkauf, kein Abo.'],
  mail='Fragen oder Ideen? Schreib uns an')
 
 T['pt'] = dict(
@@ -293,8 +293,8 @@ T['pt'] = dict(
       ('🗣️', 'Na tua língua', 'A app está em espanhol, inglês, francês ou alemão, e os significados podem aparecer traduzidos ou como definição.')],
  l_a1='Carta de navegação da Lexpedition', l_a2='Progresso, posto e recordes na Lexpedition',
  l_n='Para qualquer idade: de crianças que preparam o primeiro certificado a adultos. Funciona no telemóvel e no tablet, com vários perfis no mesmo dispositivo. Edição de lançamento: agora grátis e completa, com as quatro línguas e todos os níveis. Descarrega-a já e fica com ela completa para sempre.',
- c_h='O nosso compromisso',
- c=['Sem anúncios, nunca.', 'Sem contas nem registo.', 'Funcionam sem ligação: sem dados móveis nem rede.', 'Para telemóvel e tablet: Android, iPhone e iPad.', 'Não recolhemos dados pessoais: tudo fica guardado no teu dispositivo.', 'Adequadas a menores: compras e ligações protegidas com uma pergunta para adultos.', 'Compra única opcional, sem subscrições.'],
+ c_h='Características',
+ c=['Sem anúncios.', 'Sem contas nem registo.', 'Funcionam sem ligação: sem dados móveis nem rede.', 'Para telemóvel e tablet: Android, iPhone e iPad.', 'Não recolhemos dados pessoais: tudo fica guardado no teu dispositivo.', 'Adequadas a menores: compras e ligações protegidas com uma pergunta para adultos.', 'Compra única opcional, sem subscrições.'],
  mail='Dúvidas ou ideias? Escreve-nos para')
 
 home = {l: block(T[l], l) for l in T}
