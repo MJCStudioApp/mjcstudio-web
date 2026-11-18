@@ -69,3 +69,9 @@ a[href^="https://x.com"],a[href^="https://www.instagram.com"]{white-space:nowrap
 
 .store{margin:18px 0 4px;padding:14px 16px;border:2px solid #c9d3e6;border-radius:16px;background:#fff}
 .store h3{margin:0 0 6px}.store p{margin:6px 0}.store .btn{min-height:44px;line-height:1.3}
+
+/* 6.16: las cuatro formas de jugar de Rondalia */
+.modes-h{margin:18px 0 0}
+.modes .feats{grid-template-columns:1fr 1fr;margin:10px 0 20px}
+.modes .feat{background:#eef2fd;border:2px solid #c9d3f4}
+@media (max-width:520px){.modes .feats{grid-template-columns:1fr}}

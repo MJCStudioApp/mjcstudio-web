@@ -28,6 +28,8 @@ def block(t, lg):
 <section class="appsec" id="rondalia-{lg}">
 <div class="apphead"><img src="img/rondalia.png" alt="" width="72" height="72"><div><h2>Rondalia</h2><p class="kicker">{t['r_k']}</p></div></div>
 <p>{t['r_p']}</p>
+<h3 class="modes-h">{t['r_mh']}</h3>
+<div class="modes">{feats(t['r_m'])}</div>
 {feats(t['r_f'])}
 {shots('ron-inicio', 'ron-abecedario', t['r_a1'], t['r_a2'])}
 <h3>{t['r_gh']}</h3>
@@ -296,5 +298,38 @@ T['pt'] = dict(
  c_h='Características',
  c=['Sem anúncios.', 'Sem contas nem registo.', 'Funcionam sem ligação: sem dados móveis nem rede.', 'Para telemóvel e tablet: Android, iPhone e iPad.', 'Não recolhemos dados pessoais: tudo fica guardado no teu dispositivo.', 'Adequadas a menores: compras e ligações protegidas com uma pergunta para adultos.', 'Compra única opcional, sem subscrições.'],
  mail='Dúvidas ou ideias? Escreve-nos para')
+
+
+
+# 6.16: las cuatro formas de jugar, juntas y arriba (antes repartidas entre «Nuevo: todos juntos», «Todos los que seáis», «Duelo para dos» y «También para jugar solo»)
+MODES4 = {
+ 'es': ('4 formas de jugar, en la misma app', [
+   ('👤', 'Solo', 'Para practicar o pasar el rato: Preguntas, Banderas, Cálculo, Palabrea, Adivina la palabra y más, con tu récord de aciertos seguidos y retos con vidas.'),
+   ('⚔️', 'Duelo para dos', 'Pantalla dividida, cada uno en su lado y a su nivel: pulsador en Preguntas y Banderas (responde quien pulse antes), una palabra para cada uno en Adivina la palabra, y Cálculo, Palabrea, Adivina el número y Llega al número. Gana quien sume más.'),
+   ('🎉', 'En grupo', 'De 3 en adelante, sin límite por juego: guarda hasta 50 jugadores y jugad por turnos o todos a la vez, con un solo marcador. En las partidas grandes, El despistado tiene varios despistados.'),
+   ('👥', 'Todos juntos', '¿Con niños pequeños o sin ganas de competir? Un solo equipo, sin nombres: ganáis o perdéis juntos contra un reto, como 20 aciertos antes de 5 fallos. Y si sois dos, Palabra prohibida y Mímica se juegan en equipo.')]),
+ 'en': ('4 ways to play, in one app', [
+   ('👤', 'Solo', 'To practise or pass the time: Quiz, Flags, Mental Math, Wordsmithing, Guess the Word and more, with your record of correct answers in a row and challenges with lives.'),
+   ('⚔️', 'A duel for two', 'Split screen, each on your own side and at your own level: a buzzer in Quiz and Flags (whoever buzzes first answers), a word each in Guess the Word, plus Mental Math, Wordsmithing, Guess the Number and Reach the Number. The higher score wins.'),
+   ('🎉', 'Group', '3 or more, with no limit per game: save up to 50 players and play taking turns or all at once, with one scoreboard. In big games, The Clueless One has several clueless players.'),
+   ('👥', 'All together', 'Playing with little ones or not in the mood to compete? One team, no names: you win or lose together against a challenge, such as 20 right before 5 wrong. And with two of you, Forbidden Words and Charades are played as a team.')]),
+ 'fr': ('4 façons de jouer, dans la même appli', [
+   ('👤', 'Solo', 'Pour s’entraîner ou passer le temps : Quiz, Drapeaux, Calcul mental, Motine, Devine le mot et plus encore, avec ton record de bonnes réponses d’affilée et des défis avec des vies.'),
+   ('⚔️', 'Un duel à deux', 'Écran partagé, chacun de son côté et à son niveau : un buzzer au Quiz et aux Drapeaux (le premier qui appuie répond), un mot chacun à Devine le mot, et aussi Calcul mental, Motine, Devine le nombre et Atteins le nombre. Le meilleur score gagne.'),
+   ('🎉', 'En groupe', 'À partir de 3, sans limite par jeu : enregistre jusqu’à 50 joueurs et jouez à tour de rôle ou tous en même temps, avec un seul tableau des scores. Dans les grandes parties, Le Distrait a plusieurs distraits.'),
+   ('👥', 'Tous ensemble', 'Avec de jeunes enfants ou sans envie de compétition ? Une seule équipe, sans prénoms : vous gagnez ou perdez ensemble face à un défi, comme 20 bonnes réponses avant 5 erreurs. Et à deux, Mots interdits et Mime se jouent en équipe.')]),
+ 'de': ('4 Arten zu spielen, in einer App', [
+   ('👤', 'Allein', 'Zum Üben oder Zeitvertreib: Quiz, Flaggen, Kopfrechnen, Wörteln, Wörterraten und mehr, mit deinem Rekord an richtigen Antworten in Folge und Herausforderungen mit Leben.'),
+   ('⚔️', 'Duell zu zweit', 'Geteilter Bildschirm, jeder auf seiner Seite und seiner Stufe: Buzzer bei Quiz und Flaggen (wer zuerst drückt, antwortet), ein eigenes Wort bei Wörterraten, dazu Kopfrechnen, Wörteln, Zahlenraten und Triff die Zahl. Wer mehr Punkte hat, gewinnt.'),
+   ('🎉', 'In der Gruppe', 'Ab 3, ohne Grenze pro Spiel: Speichere bis zu 50 Spieler und spielt reihum oder alle gleichzeitig, mit einer Punktetabelle. In großen Runden hat Der Ahnungslose mehrere Ahnungslose.'),
+   ('👥', 'Alle zusammen', 'Mit kleinen Kindern oder ohne Lust auf Wettkampf? Ein Team, ohne Namen: Ihr gewinnt oder verliert gemeinsam gegen eine Herausforderung, etwa 20 richtige vor 5 Fehlern. Und zu zweit spielt ihr Verbotene Wörter und Pantomime im Team.')]),
+ 'pt': ('4 formas de jogar, na mesma app', [
+   ('👤', 'Sozinho', 'Para praticar ou passar o tempo: Perguntas, Bandeiras, Cálculo, Palavreia, Adivinha a palavra e mais, com o teu recorde de respostas certas seguidas e desafios com vidas.'),
+   ('⚔️', 'Duelo a dois', 'Ecrã dividido, cada um no seu lado e no seu nível: botão de resposta em Perguntas e Bandeiras (responde quem carregar primeiro), uma palavra para cada um em Adivinha a palavra, e ainda Cálculo, Palavreia, Adivinha o número e Chega ao número. Ganha quem somar mais.'),
+   ('🎉', 'Em grupo', 'A partir de 3, sem limite por jogo: guarda até 50 jogadores e joguem à vez ou todos ao mesmo tempo, com uma só pontuação. Nas partidas grandes, há vários distraídos.'),
+   ('👥', 'Todos juntos', 'Com crianças pequenas ou sem vontade de competir? Uma só equipa, sem nomes: ganham ou perdem juntos contra um desafio, como 20 certas antes de 5 falhas. E se forem dois, Palavra proibida e Mímica jogam-se em equipa.')])}
+for _lg, (_h, _m) in MODES4.items():
+    T[_lg]['r_mh'] = _h; T[_lg]['r_m'] = _m
+    T[_lg]['r_f'] = [f for f in T[_lg]['r_f'] if f[0] not in ('🤝', '👥', '⚔️', '🧒')]
 
 home = {l: block(T[l], l) for l in T}
