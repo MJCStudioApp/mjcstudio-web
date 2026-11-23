@@ -128,7 +128,7 @@ T['es'] = dict(
       ('🌱', 'Siempre creciendo', 'Rondalia se actualiza con frecuencia: juegos nuevos, más preguntas y sets gratis para las fechas especiales del año, con su propio estilo visual. La app te avisa de cada versión nueva y te cuenta sus novedades, y desde ella puedes sugerirnos juegos.')],
  r_a1='Pantalla de inicio de Rondalia', r_a2='Juego del Abecedario en Rondalia',
  r_gh='Los juegos',
- r_g=['❓ Preguntas', '🤐 Palabra prohibida', '🔤 Abecedario', '🎭 Mímica', '🚩 Banderas', '➗ Cálculo', '🔢 Adivina el número', '🎯 Llega al número', '⚡ Letra al vuelo', '🔠 Palabrea', '🎈 Adivina la palabra', '🤔 ¿Qué elegiría?', '🤷 El despistado', '⚖️ ¿Qué prefieres?', '💬 Conocernos', '📖 Historia encadenada'],
+ r_g=['❓ Preguntas', '🤐 Palabra prohibida', '🔤 Abecedario', '🎭 Mímica', '🚩 Banderas', '➗ Cálculo', '🔢 Adivina el número', '🎯 Llega al número', '⚡ Letra al vuelo', '🔠 Palabrea', '🎈 Adivina la palabra', '🤔 ¿Qué elegiría?', '🤷 El despistado', '⚖️ ¿Qué prefieres?', '💬 Conocernos', '📖 Historia encadenada', '🔐 Descifra el código'],
  r_n='En español, inglés, francés, alemán y portugués, con preguntas adaptadas a cada país. Edición de lanzamiento: ahora gratis y completa, sin compras. Descárgala ahora y tenla completa para siempre.',
  l_k='Rumbo fijo: aprobar tu examen',
  l_p='Lexpedition convierte la preparación de tu examen oficial de idiomas en una travesía por el mar, y el puerto de destino es el aprobado. Cada lección es una isla que conquistar y cada expresión que dominas es una milla menos hasta la meta. Con cinco o diez minutos al día llegarás al examen con el vocabulario que más se resiste.',
@@ -166,7 +166,7 @@ T['en'] = dict(
       ('🌱', 'Always growing', 'Rondalia is updated often: new games, more questions and free sets for special times of the year, each with its own visual style. The app lets you know about each new version and what is new, and you can suggest games from it.')],
  r_a1='Rondalia home screen', r_a2='Alphabet Wheel in Rondalia',
  r_gh='The games',
- r_g=['❓ Quiz', '🤐 Forbidden Words', '🔤 Alphabet Wheel', '🎭 Charades', '🚩 Flags', '➗ Mental Math', '🔢 Guess the Number', '🎯 Reach the Number', '⚡ Letter Rush', '🔠 Wordsmithing', '🎈 Guess the Word', '🤔 What Would They Pick?', '🤷 The Clueless One', '⚖️ Would You Rather?', '💬 Get to Know You', '📖 Story Chain'],
+ r_g=['❓ Quiz', '🤐 Forbidden Words', '🔤 Alphabet Wheel', '🎭 Charades', '🚩 Flags', '➗ Mental Math', '🔢 Guess the Number', '🎯 Reach the Number', '⚡ Letter Rush', '🔠 Wordsmithing', '🎈 Guess the Word', '🤔 What Would They Pick?', '🤷 The Clueless One', '⚖️ Would You Rather?', '💬 Get to Know You', '📖 Story Chain', '🔐 Codeburst'],
  r_n='In English, Spanish, French, German and Portuguese, with questions adapted to each country. Launch edition: free and complete right now, no purchases. Download it now and keep the full version forever.',
  l_k='Set your course for passing your exam',
  l_p='Lexpedition turns preparing for your official language exam into a voyage across the sea, and the destination port is a pass. Each lesson is an island to conquer and every expression you master is one mile closer to the goal. With five or ten minutes a day you will reach exam day with the vocabulary that resists the most.',
@@ -204,7 +204,7 @@ T['fr'] = dict(
       ('🌱', 'Toujours plus riche', 'Rondalia est mise à jour souvent : nouveaux jeux, plus de questions et packs gratuits pour les moments forts de l\'année, chacun avec son propre style visuel. L\'appli te prévient à chaque nouvelle version et te présente ses nouveautés, et tu peux nous y proposer des jeux.')],
  r_a1="Écran d'accueil de Rondalia", r_a2="Roue de l'alphabet dans Rondalia",
  r_gh='Les jeux',
- r_g=['❓ Quiz', '🤐 Mots interdits', "🔤 Roue de l'alphabet", '🎭 Mime', '🚩 Drapeaux', '➗ Calcul mental', '🔢 Devine le nombre', '🎯 Atteins le nombre', '⚡ Lettre éclair', '🔠 Motine', '🎈 Devine le mot', '🤔 Devine son choix', '🤷 Le Distrait', '⚖️ Tu préfères ?', '💬 Faisons connaissance', '📖 Histoire à la chaîne'],
+ r_g=['❓ Quiz', '🤐 Mots interdits', "🔤 Roue de l'alphabet", '🎭 Mime', '🚩 Drapeaux', '➗ Calcul mental', '🔢 Devine le nombre', '🎯 Atteins le nombre', '⚡ Lettre éclair', '🔠 Motine', '🎈 Devine le mot', '🤔 Devine son choix', '🤷 Le Distrait', '⚖️ Tu préfères ?', '💬 Faisons connaissance', '📖 Histoire à la chaîne', '🔐 Déchiffre le code'],
  r_n="En français, espagnol, anglais, allemand et portugais, avec des questions adaptées à chaque pays. Édition de lancement : gratuite et complète en ce moment, sans achat. Télécharge-la maintenant et garde la version complète pour toujours.",
  l_k='Cap sur la réussite de ton examen',
  l_p="Lexpedition transforme la préparation de ton examen officiel de langue en une traversée en mer, et le port d'arrivée, c'est la réussite. Chaque leçon est une île à conquérir et chaque expression maîtrisée est un mille de moins vers le but. Avec cinq ou dix minutes par jour, tu arriveras à l'examen avec le vocabulaire qui résiste le plus.",
@@ -242,7 +242,7 @@ T['de'] = dict(
       ('🌱', 'Wächst ständig', 'Rondalia wird regelmäßig aktualisiert: neue Spiele, mehr Fragen und kostenlose Pakete für besondere Zeiten im Jahr, jeweils mit eigenem Stil. Die App sagt dir bei jeder neuen Version Bescheid und zeigt, was neu ist, und du kannst uns darin Spiele vorschlagen.')],
  r_a1='Startbildschirm von Rondalia', r_a2='Buchstabenrad in Rondalia',
  r_gh='Die Spiele',
- r_g=['❓ Quiz', '🤐 Verbotene Wörter', '🔤 Buchstabenrad', '🎭 Pantomime', '🚩 Flaggen', '➗ Kopfrechnen', '🔢 Zahlenraten', '🎯 Triff die Zahl', '⚡ Buchstabenblitz', '🔠 Wörteln', '🎈 Wörterraten', '🤔 Rate die Wahl', '🤷 Der Ahnungslose', '⚖️ Was wäre dir lieber?', '💬 Kennenlernen', '📖 Kettengeschichte'],
+ r_g=['❓ Quiz', '🤐 Verbotene Wörter', '🔤 Buchstabenrad', '🎭 Pantomime', '🚩 Flaggen', '➗ Kopfrechnen', '🔢 Zahlenraten', '🎯 Triff die Zahl', '⚡ Buchstabenblitz', '🔠 Wörteln', '🎈 Wörterraten', '🤔 Rate die Wahl', '🤷 Der Ahnungslose', '⚖️ Was wäre dir lieber?', '💬 Kennenlernen', '📖 Kettengeschichte', '🔐 Code-Detektiv'],
  r_n='Auf Deutsch, Spanisch, Englisch, Französisch und Portugiesisch, mit Fragen für jedes Land. Launch-Edition: aktuell kostenlos und komplett, ohne Käufe. Jetzt herunterladen und die Vollversion für immer behalten.',
  l_k='Kurs auf deine bestandene Prüfung',
  l_p='Lexpedition macht aus der Vorbereitung auf deine offizielle Sprachprüfung eine Reise übers Meer – und der Zielhafen ist das Bestehen. Jede Lektion ist eine Insel, die du eroberst, und jeder Ausdruck, den du beherrschst, ist eine Seemeile näher am Ziel. Mit fünf bis zehn Minuten am Tag gehst du mit genau dem Wortschatz in die Prüfung, der am schwersten fällt.',
@@ -281,7 +281,7 @@ T['pt'] = dict(
       ('🌱', 'Sempre a crescer', 'A Rondalia é atualizada com frequência: jogos novos, mais perguntas e coleções grátis para as datas especiais do ano, com o seu próprio estilo visual. A app avisa-te de cada versão nova e conta-te as novidades, e podes sugerir-nos jogos a partir dela.')],
  r_a1='Ecrã inicial da Rondalia', r_a2='Jogo do Abecedário na Rondalia',
  r_gh='Os jogos',
- r_g=['❓ Perguntas', '🤐 Palavra proibida', '🔤 Abecedário', '🎭 Mímica', '🚩 Bandeiras', '➗ Cálculo', '🔢 Adivinha o número', '🎯 Chega ao número', '⚡ Letra a voar', '🔠 Palavreia', '🎈 Adivinha a palavra', '🤔 O que escolheria?', '🤷 O distraído', '⚖️ O que preferes?', '💬 Conhecermo-nos', '📖 História encadeada'],
+ r_g=['❓ Perguntas', '🤐 Palavra proibida', '🔤 Abecedário', '🎭 Mímica', '🚩 Bandeiras', '➗ Cálculo', '🔢 Adivinha o número', '🎯 Chega ao número', '⚡ Letra a voar', '🔠 Palavreia', '🎈 Adivinha a palavra', '🤔 O que escolheria?', '🤷 O distraído', '⚖️ O que preferes?', '💬 Conhecermo-nos', '📖 História encadeada', '🔐 Decifra o código'],
  r_n='Em português, espanhol, inglês, francês e alemão, com perguntas adaptadas a cada país. Edição de lançamento: agora grátis e completa, sem compras. Descarrega-a já e fica com ela completa para sempre.',
  l_k='Rumo certo: passar no teu exame',
  l_p='A Lexpedition transforma a preparação do teu exame oficial de línguas numa travessia pelo mar, e o porto de chegada é a aprovação. Cada lição é uma ilha para conquistar e cada expressão que dominas é uma milha a menos até à meta. Com cinco ou dez minutos por dia, chegarás ao exame com o vocabulário que mais resiste.',
@@ -301,33 +301,39 @@ T['pt'] = dict(
 
 
 
+# 6.25: cinco formas (Solo, Duelo, Todos contra todos, Todos juntos, Por equipos)
 # 6.16: las cuatro formas de jugar, juntas y arriba (antes repartidas entre «Nuevo: todos juntos», «Todos los que seáis», «Duelo para dos» y «También para jugar solo»)
 MODES4 = {
- 'es': ('4 formas de jugar, en la misma app', [
+ 'es': ('5 formas de jugar, en la misma app', [
    ('👤', 'Solo', 'Para practicar o pasar el rato: Preguntas, Banderas, Cálculo, Palabrea, Adivina la palabra y más, con tu récord de aciertos seguidos y retos con vidas.'),
    ('⚔️', 'Duelo para dos', 'Pantalla dividida, cada uno en su lado y a su nivel: pulsador en Preguntas y Banderas (responde quien pulse antes), una palabra para cada uno en Adivina la palabra, y Cálculo, Palabrea, Adivina el número y Llega al número. Gana quien sume más.'),
-   ('🎉', 'En grupo', 'De 3 en adelante, sin límite por juego: guarda hasta 50 jugadores y jugad por turnos o todos a la vez, con un solo marcador. En las partidas grandes, El despistado tiene varios despistados.'),
-   ('👥', 'Todos juntos', '¿Con niños pequeños o sin ganas de competir? Un solo equipo, sin nombres: ganáis o perdéis juntos contra un reto, como 20 aciertos antes de 5 fallos. Y si sois dos, Palabra prohibida y Mímica se juegan en equipo.')]),
- 'en': ('4 ways to play, in one app', [
+   ('🏆', 'Todos contra todos', 'De 3 en adelante, cada uno con sus puntos y sin límite por juego: guarda hasta 50 jugadores y jugad por turnos o todos a la vez, con un solo marcador. En las partidas grandes, El despistado tiene varios despistados.'),
+   ('👥', 'Todos juntos', '¿Con niños pequeños o sin ganas de competir? Un solo equipo, sin nombres: ganáis o perdéis juntos contra un reto, como 20 aciertos antes de 5 fallos. Y si sois dos, Palabra prohibida y Mímica se juegan en equipo.'),
+   ('🆚', 'Por equipos', 'Equipo contra equipo: 2 o más equipos, del tamaño que queráis. Se turnan los equipos y, dentro de cada uno, sus jugadores; los puntos son del equipo. Con 2 equipos, también en duelo.')]),
+ 'en': ('5 ways to play, in one app', [
    ('👤', 'Solo', 'To practise or pass the time: Quiz, Flags, Mental Math, Wordsmithing, Guess the Word and more, with your record of correct answers in a row and challenges with lives.'),
    ('⚔️', 'A duel for two', 'Split screen, each on your own side and at your own level: a buzzer in Quiz and Flags (whoever buzzes first answers), a word each in Guess the Word, plus Mental Math, Wordsmithing, Guess the Number and Reach the Number. The higher score wins.'),
-   ('🎉', 'Group', '3 or more, with no limit per game: save up to 50 players and play taking turns or all at once, with one scoreboard. In big games, The Clueless One has several clueless players.'),
-   ('👥', 'All together', 'Playing with little ones or not in the mood to compete? One team, no names: you win or lose together against a challenge, such as 20 right before 5 wrong. And with two of you, Forbidden Words and Charades are played as a team.')]),
- 'fr': ('4 façons de jouer, dans la même appli', [
+   ('🏆', 'Free-for-all', '3 or more, each with their own points and no limit per game: save up to 50 players and play taking turns or all at once, with one scoreboard. In big games, The Clueless One has several clueless players.'),
+   ('👥', 'All together', 'Playing with little ones or not in the mood to compete? One team, no names: you win or lose together against a challenge, such as 20 right before 5 wrong. And with two of you, Forbidden Words and Charades are played as a team.'),
+   ('🆚', 'Teams', 'Team against team: 2 or more teams, any size you like. Teams take turns and, within each team, so do its players; points go to the team. With 2 teams, you can also duel.')]),
+ 'fr': ('5 façons de jouer, dans la même appli', [
    ('👤', 'Solo', 'Pour s’entraîner ou passer le temps : Quiz, Drapeaux, Calcul mental, Motine, Devine le mot et plus encore, avec ton record de bonnes réponses d’affilée et des défis avec des vies.'),
    ('⚔️', 'Un duel à deux', 'Écran partagé, chacun de son côté et à son niveau : un buzzer au Quiz et aux Drapeaux (le premier qui appuie répond), un mot chacun à Devine le mot, et aussi Calcul mental, Motine, Devine le nombre et Atteins le nombre. Le meilleur score gagne.'),
-   ('🎉', 'En groupe', 'À partir de 3, sans limite par jeu : enregistre jusqu’à 50 joueurs et jouez à tour de rôle ou tous en même temps, avec un seul tableau des scores. Dans les grandes parties, Le Distrait a plusieurs distraits.'),
-   ('👥', 'Tous ensemble', 'Avec de jeunes enfants ou sans envie de compétition ? Une seule équipe, sans prénoms : vous gagnez ou perdez ensemble face à un défi, comme 20 bonnes réponses avant 5 erreurs. Et à deux, Mots interdits et Mime se jouent en équipe.')]),
- 'de': ('4 Arten zu spielen, in einer App', [
+   ('🏆', 'Chacun pour soi', 'À partir de 3, chacun ses points et sans limite par jeu : enregistre jusqu’à 50 joueurs et jouez à tour de rôle ou tous en même temps, avec un seul tableau des scores. Dans les grandes parties, Le Distrait a plusieurs distraits.'),
+   ('👥', 'Tous ensemble', 'Avec de jeunes enfants ou sans envie de compétition ? Une seule équipe, sans prénoms : vous gagnez ou perdez ensemble face à un défi, comme 20 bonnes réponses avant 5 erreurs. Et à deux, Mots interdits et Mime se jouent en équipe.'),
+   ('🆚', 'En équipes', 'Équipe contre équipe : 2 équipes ou plus, de la taille que vous voulez. Les équipes jouent à tour de rôle et, dans chaque équipe, ses joueurs aussi ; les points vont à l’équipe. À 2 équipes, aussi en duel.')]),
+ 'de': ('5 Arten zu spielen, in einer App', [
    ('👤', 'Allein', 'Zum Üben oder Zeitvertreib: Quiz, Flaggen, Kopfrechnen, Wörteln, Wörterraten und mehr, mit deinem Rekord an richtigen Antworten in Folge und Herausforderungen mit Leben.'),
    ('⚔️', 'Duell zu zweit', 'Geteilter Bildschirm, jeder auf seiner Seite und seiner Stufe: Buzzer bei Quiz und Flaggen (wer zuerst drückt, antwortet), ein eigenes Wort bei Wörterraten, dazu Kopfrechnen, Wörteln, Zahlenraten und Triff die Zahl. Wer mehr Punkte hat, gewinnt.'),
-   ('🎉', 'In der Gruppe', 'Ab 3, ohne Grenze pro Spiel: Speichere bis zu 50 Spieler und spielt reihum oder alle gleichzeitig, mit einer Punktetabelle. In großen Runden hat Der Ahnungslose mehrere Ahnungslose.'),
-   ('👥', 'Alle zusammen', 'Mit kleinen Kindern oder ohne Lust auf Wettkampf? Ein Team, ohne Namen: Ihr gewinnt oder verliert gemeinsam gegen eine Herausforderung, etwa 20 richtige vor 5 Fehlern. Und zu zweit spielt ihr Verbotene Wörter und Pantomime im Team.')]),
- 'pt': ('4 formas de jogar, na mesma app', [
+   ('🏆', 'Jeder gegen jeden', 'Ab 3, jeder mit seinen Punkten und ohne Grenze pro Spiel: Speichere bis zu 50 Spieler und spielt reihum oder alle gleichzeitig, mit einer Punktetabelle. In großen Runden hat Der Ahnungslose mehrere Ahnungslose.'),
+   ('👥', 'Alle zusammen', 'Mit kleinen Kindern oder ohne Lust auf Wettkampf? Ein Team, ohne Namen: Ihr gewinnt oder verliert gemeinsam gegen eine Herausforderung, etwa 20 richtige vor 5 Fehlern. Und zu zweit spielt ihr Verbotene Wörter und Pantomime im Team.'),
+   ('🆚', 'In Teams', 'Team gegen Team: 2 oder mehr Teams, so groß ihr wollt. Die Teams sind abwechselnd dran und in jedem Team reihum seine Spieler; die Punkte gehen ans Team. Mit 2 Teams auch als Duell.')]),
+ 'pt': ('5 formas de jogar, na mesma app', [
    ('👤', 'Sozinho', 'Para praticar ou passar o tempo: Perguntas, Bandeiras, Cálculo, Palavreia, Adivinha a palavra e mais, com o teu recorde de respostas certas seguidas e desafios com vidas.'),
    ('⚔️', 'Duelo a dois', 'Ecrã dividido, cada um no seu lado e no seu nível: botão de resposta em Perguntas e Bandeiras (responde quem carregar primeiro), uma palavra para cada um em Adivinha a palavra, e ainda Cálculo, Palavreia, Adivinha o número e Chega ao número. Ganha quem somar mais.'),
-   ('🎉', 'Em grupo', 'A partir de 3, sem limite por jogo: guarda até 50 jogadores e joguem à vez ou todos ao mesmo tempo, com uma só pontuação. Nas partidas grandes, há vários distraídos.'),
-   ('👥', 'Todos juntos', 'Com crianças pequenas ou sem vontade de competir? Uma só equipa, sem nomes: ganham ou perdem juntos contra um desafio, como 20 certas antes de 5 falhas. E se forem dois, Palavra proibida e Mímica jogam-se em equipa.')])}
+   ('🏆', 'Todos contra todos', 'A partir de 3, cada um com os seus pontos e sem limite por jogo: guarda até 50 jogadores e joguem à vez ou todos ao mesmo tempo, com uma só pontuação. Nas partidas grandes, há vários distraídos.'),
+   ('👥', 'Todos juntos', 'Com crianças pequenas ou sem vontade de competir? Uma só equipa, sem nomes: ganham ou perdem juntos contra um desafio, como 20 certas antes de 5 falhas. E se forem dois, Palavra proibida e Mímica jogam-se em equipa.'),
+   ('🆚', 'Por equipas', 'Equipa contra equipa: 2 ou mais equipas, do tamanho que quiserem. As equipas jogam à vez e, dentro de cada uma, os seus jogadores; os pontos são da equipa. Com 2 equipas, também em duelo.')])}
 for _lg, (_h, _m) in MODES4.items():
     T[_lg]['r_mh'] = _h; T[_lg]['r_m'] = _m
     T[_lg]['r_f'] = [f for f in T[_lg]['r_f'] if f[0] not in ('🤝', '👥', '⚔️', '🧒')]
