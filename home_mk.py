@@ -204,7 +204,7 @@ T['fr'] = dict(
       ('🌱', 'Toujours plus riche', 'Rondalia est mise à jour souvent : nouveaux jeux, plus de questions et packs gratuits pour les moments forts de l\'année, chacun avec son propre style visuel. L\'appli te prévient à chaque nouvelle version et te présente ses nouveautés, et tu peux nous y proposer des jeux.')],
  r_a1="Écran d'accueil de Rondalia", r_a2="Roue de l'alphabet dans Rondalia",
  r_gh='Les jeux',
- r_g=['❓ Quiz', '🤐 Mots interdits', "🔤 Roue de l'alphabet", '🎭 Mime', '🚩 Drapeaux', '➗ Calcul mental', '🔢 Devine le nombre', '🎯 Atteins le nombre', '⚡ Lettre éclair', '🔠 Motine', '🎈 Devine le mot', '🤔 Devine son choix', '🤷 Le Distrait', '⚖️ Tu préfères ?', '💬 Faisons connaissance', '📖 Histoire à la chaîne', '🔐 Déchiffre le code'],
+ r_g=['❓ Quiz', '🤐 Mots interdits', "🔤 Roue de l'alphabet", '🎭 Mime', '🚩 Drapeaux', '➗ Calcul mental', '🔢 Devine le nombre', '🎯 Atteins le nombre', '⚡ Lettre éclair', '🔠 Motine', '🎈 Devine le mot', '🤔 Devine son choix', '🤷 Le Distrait', '⚖️ Tu préfères ?', '💬 Faisons connaissance', '📖 Histoire à la chaîne', '🔐 Casse-code'],
  r_n="En français, espagnol, anglais, allemand et portugais, avec des questions adaptées à chaque pays. Édition de lancement : gratuite et complète en ce moment, sans achat. Télécharge-la maintenant et garde la version complète pour toujours.",
  l_k='Cap sur la réussite de ton examen',
  l_p="Lexpedition transforme la préparation de ton examen officiel de langue en une traversée en mer, et le port d'arrivée, c'est la réussite. Chaque leçon est une île à conquérir et chaque expression maîtrisée est un mille de moins vers le but. Avec cinq ou dix minutes par jour, tu arriveras à l'examen avec le vocabulaire qui résiste le plus.",
