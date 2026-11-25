@@ -4,8 +4,7 @@
 ROTA = '<svg class="rota-ico" viewBox="0 0 512 512" width="22" height="22" aria-hidden="true" focusable="false"><circle cx="256" cy="106" r="52" fill="#3B63F5"/><circle cx="385.9" cy="181" r="52" fill="#0FA595"/><circle cx="385.9" cy="331" r="52" fill="#F2A516"/><circle cx="256" cy="406" r="52" fill="#F2692E"/><circle cx="126.1" cy="331" r="52" fill="#F0437E"/><circle cx="126.1" cy="181" r="52" fill="#7351F0"/><circle cx="256" cy="256" r="74" fill="#EFE6D2"/><circle cx="256" cy="256" r="63.6" fill="none" stroke="#A4471F" stroke-width="9.2"/><circle cx="256" cy="256" r="50.3" fill="none" stroke="#A4471F" stroke-width="3.3"/><g stroke="#A4471F" stroke-width="6.6" stroke-linecap="round"><line x1="315.2" y1="256" x2="196.8" y2="256"/><line x1="297.9" y1="297.9" x2="214.1" y2="214.1"/><line x1="256" y1="315.2" x2="256" y2="196.8"/><line x1="214.1" y1="297.9" x2="297.9" y2="214.1"/></g><circle cx="256" cy="256" r="14.8" fill="#EFE6D2" stroke="#A4471F" stroke-width="7.9"/></svg>'
 
 def block(t, lg):
-    shots = lambda a, b, alt1, alt2: (f'<div class="shots"><img src="img/{a}-{lg}.jpg" alt="{alt1}" loading="lazy" width="270" height="436">'
-                                      f'<img src="img/{b}-{lg}.jpg" alt="{alt2}" loading="lazy" width="270" height="436"></div>')
+    shots = lambda *p: '<div class="shots">' + ''.join(f'<img src="img/{a}-{lg}.jpg" alt="{alt}" loading="lazy" width="270" height="436">' for a, alt in p) + '</div>'
     feats = lambda items: '<div class="feats">' + ''.join(f'<div class="feat"><span class="fi">{i}</span><div><strong>{h}</strong><br>{d}</div></div>' for i, h, d in items) + '</div>'
     def beta(app, mail, cls):
         b = BETA[lg]
@@ -31,7 +30,7 @@ def block(t, lg):
 <h3 class="modes-h">{t['r_mh']}</h3>
 <div class="modes">{feats(t['r_m'])}</div>
 {feats(t['r_f'])}
-{shots('ron-inicio', 'ron-abecedario', t['r_a1'], t['r_a2'])}
+{shots(('ron-inicio', t['r_a1']), ('ron-verdad', t['r_a3']), ('ron-abecedario', t['r_a2']))}
 <h3>{t['r_gh']}</h3>
 {chips(t['r_g'])}
 <p class="note">{t['r_n']}</p>
@@ -46,7 +45,7 @@ def block(t, lg):
 <p>{t['l_p']}</p>
 {chips(t['l_langs'])}
 {feats(t['l_f'])}
-{shots('lex-carta', 'lex-progreso', t['l_a1'], t['l_a2'])}
+{shots(('lex-usuarios', t['l_a3']), ('lex-carta', t['l_a1']), ('lex-progreso', t['l_a2']))}
 <p class="note">{t['l_n']}</p>
 {store('6829351766', 'l')}
 {beta('lexpedition', 'lexpedition@mjcstudio.com', 'l')}
@@ -337,5 +336,20 @@ MODES4 = {
 for _lg, (_h, _m) in MODES4.items():
     T[_lg]['r_mh'] = _h; T[_lg]['r_m'] = _m
     T[_lg]['r_f'] = [f for f in T[_lg]['r_f'] if f[0] not in ('🤝', '👥', '⚔️', '🧒')]
+
+# 6.26 / 9.5: juego nuevo en Rondalia y varios usuarios, a la vista, en Lexpedition
+NEW626 = {'es': {'chip': '⚡ ¿Verdad o broma?', 'nf': ('⚡', 'Nuevo: ¿Verdad o broma?', 'Una pregunta y dos respuestas, una lógica y otra disparatada: toca la lógica antes de que se acabe el tiempo. Solo, en grupo o en duelo, cada uno a su nivel.'), 'a3r': '¿Verdad o broma? en duelo, con la pantalla dividida', 'a3l': '«¿Quién va a estudiar?»: varios usuarios en Lexpedition', 'lf': ('👨\u200d👩\u200d👧', 'Una app, varios alumnos', 'Un usuario para cada persona de casa, cada uno con su idioma, su nivel, su progreso, su racha y sus ajustes. Al abrir la app eliges quién va a estudiar. Todo en el mismo móvil o tableta, sin cuentas ni registro.'), 'lp': ' Y sirve para toda la familia: cada persona estudia con su propio usuario.', 'duel': ('Adivina el número y Llega al número. Gana quien sume más.', 'Adivina el número, Llega al número y ¿Verdad o broma? Gana quien sume más.')}, 'en': {'chip': '⚡ Truth or Bluff', 'nf': ('⚡', 'New: Truth or Bluff', 'One question, two answers, one sensible and one silly: tap the sensible one before time runs out. Solo, in a group or in a duel, each at their own level.'), 'a3r': 'Truth or Bluff duel on a split screen', 'a3l': '“Who is studying?”: several users in Lexpedition', 'lf': ('👨\u200d👩\u200d👧', 'One app, several learners', 'A user for everyone at home, each with their own language, level, progress, streak and settings. When you open the app, pick who is studying. All on the same phone or tablet, with no accounts or sign-up.'), 'lp': ' And it works for the whole family: everyone studies with their own user.', 'duel': ('Guess the Number and Reach the Number. The higher score wins.', 'Guess the Number, Reach the Number and Truth or Bluff. The higher score wins.')}, 'fr': {'chip': '⚡ Vrai ou farfelu ?', 'nf': ('⚡', 'Nouveau : Vrai ou farfelu ?', 'Une question, deux réponses, l’une logique et l’autre farfelue : touche la logique avant la fin du temps. Seul, à plusieurs ou en duel, chacun à son niveau.'), 'a3r': 'Vrai ou farfelu ? en duel sur écran partagé', 'a3l': 'Choix de l’utilisateur : plusieurs élèves dans Lexpedition', 'lf': ('👨\u200d👩\u200d👧', 'Une appli, plusieurs élèves', 'Un utilisateur pour chaque personne à la maison, chacun avec sa langue, son niveau, ses progrès, sa série et ses réglages. À l’ouverture, tu choisis qui va étudier. Le tout sur le même téléphone ou la même tablette, sans compte ni inscription.'), 'lp': ' Et elle sert à toute la famille : chacun étudie avec son propre utilisateur.', 'duel': ('Devine le nombre et Atteins le nombre. Le meilleur score gagne.', 'Devine le nombre, Atteins le nombre et Vrai ou farfelu ? Le meilleur score gagne.')}, 'de': {'chip': '⚡ Echt oder Quatsch?', 'nf': ('⚡', 'Neu: Echt oder Quatsch?', 'Eine Frage, zwei Antworten, eine sinnvolle und eine verrückte: Tippe die sinnvolle, bevor die Zeit abläuft. Allein, in der Runde oder im Duell, jeder auf seiner Stufe.'), 'a3r': 'Echt oder Quatsch? im Duell auf geteiltem Bildschirm', 'a3l': 'Nutzerauswahl: mehrere Lernende in Lexpedition', 'lf': ('👨\u200d👩\u200d👧', 'Eine App, mehrere Lernende', 'Ein Nutzer für jede Person zu Hause, jeder mit eigener Sprache, eigenem Niveau, Fortschritt, eigener Serie und eigenen Einstellungen. Beim Öffnen wählst du, wer lernt. Alles auf demselben Handy oder Tablet, ohne Konto.'), 'lp': ' Und sie passt für die ganze Familie: Jeder lernt mit seinem eigenen Nutzer.', 'duel': ('Zahlenraten und Triff die Zahl. Wer mehr Punkte hat, gewinnt.', 'Zahlenraten, Triff die Zahl und Echt oder Quatsch? Wer mehr Punkte hat, gewinnt.')}, 'pt': {'chip': '⚡ Verdade ou disparate?', 'nf': ('⚡', 'Novo: Verdade ou disparate?', 'Uma pergunta e duas respostas, uma lógica e outra disparatada: toca na lógica antes de o tempo acabar. Sozinho, em grupo ou em duelo, cada um no seu nível.'), 'a3r': 'Verdade ou disparate? em duelo, com o ecrã dividido', 'a3l': 'Escolha do utilizador: vários alunos na Lexpedition', 'lf': ('👨\u200d👩\u200d👧', 'Uma app, vários alunos', 'Um utilizador para cada pessoa lá de casa, cada um com a sua língua, o seu nível, progresso, série e definições. Ao abrir a app escolhes quem vai estudar. Tudo no mesmo telemóvel ou tablet, sem contas nem registo.'), 'lp': ' E serve para toda a família: cada pessoa estuda com o seu próprio utilizador.', 'duel': ('Adivinha o número e Chega ao número. Ganha quem somar mais.', 'Adivinha o número, Chega ao número e Verdade ou disparate? Ganha quem somar mais.')}}
+for _lg, _d in NEW626.items():
+    _t = T[_lg]
+    _t['r_g'] = _t['r_g'] + [_d['chip']]
+    _i = next(i for i, f in enumerate(_t['r_f']) if f[0] == '🎡')
+    _t['r_f'] = _t['r_f'][:_i + 1] + [_d['nf']] + _t['r_f'][_i + 1:]
+    _t['r_a3'] = _d['a3r']; _t['l_a3'] = _d['a3l']
+    _t['l_f'] = [_d['lf']] + _t['l_f']
+    _t['l_p'] += _d['lp']
+    _a, _b = _d['duel']
+    _m = [(i, h, x.replace(_a, _b)) for i, h, x in _t['r_m']]
+    assert _m != list(_t['r_m']), 'duelo sin cambiar: ' + _lg
+    _t['r_m'] = _m
 
 home = {l: block(T[l], l) for l in T}
