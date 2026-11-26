@@ -30,7 +30,7 @@ def block(t, lg):
 <h3 class="modes-h">{t['r_mh']}</h3>
 <div class="modes">{feats(t['r_m'])}</div>
 {feats(t['r_f'])}
-{shots(('ron-inicio', t['r_a1']), ('ron-verdad', t['r_a3']), ('ron-abecedario', t['r_a2']))}
+{shots(('ron-inicio', t['r_a1']), ('ron-rapido', t['r_aq']), ('ron-verdad', t['r_a3']), ('ron-abecedario', t['r_a2']))}
 <h3>{t['r_gh']}</h3>
 {chips(t['r_g'])}
 <p class="note">{t['r_n']}</p>
@@ -351,5 +351,18 @@ for _lg, _d in NEW626.items():
     _m = [(i, h, x.replace(_a, _b)) for i, h, x in _t['r_m']]
     assert _m != list(_t['r_m']), 'duelo sin cambiar: ' + _lg
     _t['r_m'] = _m
+
+# 6.27: modo rápido (primero en la lista) y su captura; «¿Verdad o broma?» deja de anunciarse como nuevo
+QUICK627 = {
+ 'es': ('Nuevo: modo rápido', 'Decid cuántos sois y el nivel, y la rueda elige un juego con puntos: sin escribir nombres ni tocar ajustes. Para jugar con nombres, nivel propio y las cinco formas de jugar, pasad a «Personalizado» con un toque.', 'Modo rápido de Rondalia: cuántos jugáis, nivel y «¡A jugar!»', 'Nuevo: '),
+ 'en': ('New: quick mode', 'Say how many you are and the level, and the wheel picks a game with points: no names to type, no settings. For names, individual levels and the five ways to play, switch to “Custom” with one tap.', 'Rondalia quick mode: number of players, level and “Let’s play!”', 'New: '),
+ 'fr': ('Nouveau : mode rapide', 'Dites combien vous êtes et le niveau, et la roue choisit un jeu à points : ni prénoms à écrire ni réglages. Pour les prénoms, le niveau de chacun et les cinq façons de jouer, passez en « Personnalisé » d’un geste.', 'Mode rapide de Rondalia : nombre de joueurs, niveau et « On joue ! »', 'Nouveau : '),
+ 'de': ('Neu: Schnellmodus', 'Sagt, wie viele ihr seid und die Stufe, und das Rad wählt ein Spiel mit Punkten: ohne Namen und Einstellungen. Für Namen, eigene Stufen und die fünf Spielarten wechselt ihr mit einem Tipp zu „Individuell“.', 'Schnellmodus von Rondalia: Spielerzahl, Stufe und „Los geht’s!“', 'Neu: '),
+ 'pt': ('Novo: modo rápido', 'Digam quantos são e o nível, e a roda escolhe um jogo com pontos: sem escrever nomes nem mexer em definições. Para nomes, nível de cada um e as cinco formas de jogar, passem para «Personalizado» com um toque.', 'Modo rápido da Rondalia: número de jogadores, nível e «A jogar!»', 'Novo: ')}
+for _lg, (_h, _d, _alt, _new) in QUICK627.items():
+    _t = T[_lg]
+    assert any(f[1].startswith(_new) for f in _t['r_f']), 'sin «Nuevo» anterior: ' + _lg
+    _t['r_f'] = [('⚡', _h, _d)] + [(i, h[len(_new):] if h.startswith(_new) else h, x) for i, h, x in _t['r_f']]
+    _t['r_aq'] = _alt
 
 home = {l: block(T[l], l) for l in T}
